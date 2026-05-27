@@ -1,0 +1,5269 @@
+{
+  "last_run": 1779843734,
+  "programs": {
+    "alasco-gmbh-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "Alasco will not provide access credentials to any system, not for testing and also not for issue validation.",
+          "All other domains or subdomains not listed in the above list of 'Scopes'.",
+          "However, any vulnerability discovered in a system or service that requires a login to access is outside the scope of this program.",
+          "Please note that all non-authenticated areas of our systems are in scope for this program. This means that any vulnerability discovered in a system or service that does not require a login to access is eligible for a reward.",
+          "alasco.de",
+          "explore.alasco.com",
+          "explore.alasco.de",
+          "www.alasco.de"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "api.alasco.de",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.alasco.de",
+            "type": "other"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.alasco.rocks",
+            "type": "other"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "app.alasco.de",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 4
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1000,
+        "bounty_reward_min": 50,
+        "country": "DE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 4,
+        "secured": false,
+        "slug": "alasco-gmbh-bug-bounty-program",
+        "status": "V",
+        "title": "Alasco GmbH - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "ant-group-security-response-center-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'.",
+          "Not Belonging to Ant Group\u2019s Products or Systems.",
+          "Third-party applications and websites"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "Any Other Applications found here: https://mysrc.group/project_detail?id=11",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.alipayplus.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.antom.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.worldfirst.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "alipayhk.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "anext.com.sg",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "antbank.hk",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "bettrfinancing.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 8
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2500,
+        "bounty_reward_min": 10,
+        "country": "CN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 8,
+        "secured": false,
+        "slug": "ant-group-security-response-center-bug-bounty-program",
+        "status": "V",
+        "title": "Ant Group Security Response Center - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "atg-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "fraga.atg.se (external supplier)",
+          "hittabutik.atg.se (external supplier)",
+          "kundo.atg.se (external supplier)",
+          "r121.news.atg.se (external supplier)",
+          "r122.news.atg.se (external supplier)",
+          "r123.news.atg.se (external supplier)",
+          "r124.news.atg.se (external supplier)",
+          "shop.atg.se (external supplier)",
+          "webbshop.atg.se (external supplier)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "api.atg.se",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://apps.apple.com/se/app/atg/id1434660322",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.atg.se",
+            "type": "other"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://apps.apple.com/se/app/atg-live/id1608156355",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "iam.atg.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.atg.se",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 7
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 4000,
+        "bounty_reward_min": 0,
+        "country": "SE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 7,
+        "secured": false,
+        "slug": "atg-public-bug-bounty-program",
+        "status": "V",
+        "title": "ATG Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "bitoasis-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "All other third parties",
+          "Websites under Bitoasis that utilize CMS frameworks (e.g., WordPress, Joomla, Sitecore).",
+          "https://blog.bitoasis.net"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.bitoasis&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/ae/app/bitoasis-buy-bitcoin-crypto/id1521661794",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.bitoasis.net",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 5,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "bitoasis-bug-bounty-program",
+        "status": "V",
+        "title": "BitOasis - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "bookbeat": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "edge.bookbeat.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://api.bookbeat.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://search-api.bookbeat.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.bookbeat.android&hl=en&pli=1",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/se/app/bookbeat-audiobooks-e-books/id1056652614?l=en-GB",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.bookbeat.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "Media & Entertainment",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "SE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "bookbeat",
+        "status": "V",
+        "title": "BookBeat",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "bug-bounty-program-blablacar": {
+      "detail": {
+        "out_of_scope": [
+          "Any website that is not listed explicitly in the scope.",
+          "Finally, fraud related reports are out-of-scope if they do not exploit a security vulnerability. Therefore, fraud activity enabled by bug or incomplete business rules enforcement are out-of-scope.  However, a fraud activity enabled by a CSRF exploit for example is valid.",
+          "However, though listed in the out-of-scope list, if you really feel that a bug will leave an impact on our platform, please come up with a convincing and working POC. If that convinces us to change our code, we will reward you with a bounty.",
+          "Please note that https://dev.blablacar.com is hosted by a third party and thus is out of scope."
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "https://api.blablalines.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua))",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=com.blablalines",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://blablacardaily.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://daily.blablacar.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 11
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 11,
+        "secured": false,
+        "slug": "bug-bounty-program-blablacar",
+        "status": "V",
+        "title": "Bug Bounty Program - BlaBlaCar",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "bug-bounty-sncf-connect-1": {
+      "detail": {
+        "out_of_scope": [
+          "All domains and subdomains that are not listed within the scope of the Bug Bounty program.",
+          "The SNCF Connect mobile applications (Android and Apple) are out of scope even if the web services they use are in scope (accessible through paths beginning by 'https://www.sncf-connect.com/bff')."
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.sncf-connect.com/bff",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https//monidentifiant.sncf",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://sncf-connect.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.sncf-connect.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 4
+      },
+      "list": {
+        "activity_area": "Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 10000,
+        "bounty_reward_min": 0,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 4,
+        "secured": false,
+        "slug": "bug-bounty-sncf-connect-1",
+        "status": "V",
+        "title": "Bug Bounty SNCF Connect",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "coindcx-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "CMS websites own by Coindcx (Anything related to Wordpress etc)",
+          "Zendesk and other third parties",
+          "careers.coindcx.com",
+          "coindcx.com/blog",
+          "info.coindcx.com",
+          "otcdesk.coindcx.com"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "api.coindcx.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.coindcx.com",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 4
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 4,
+        "secured": false,
+        "slug": "coindcx-bug-bounty-program",
+        "status": "V",
+        "title": "Coindcx - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "contentsquare-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "*.wwko*.contentsquare.com",
+          "blog.contentsquare.com",
+          "brand.contentsquare.com",
+          "community.contentsquare.com",
+          "content.contentsquare.com",
+          "csd-*.contentsquare.com",
+          "csq.contentsquare.com",
+          "csq.contentsquare.com",
+          "csquad.contentsquare.com",
+          "explore.contentsquare.com",
+          "foundation.contentsquare.com",
+          "get.contentsquare.com",
+          "go.contentsquare.com",
+          "hackathon.contentsquare.com",
+          "incident.contentsquare.com",
+          "invite.contentsquare.com",
+          "learn.contentsquare.com",
+          "learn2.contentsquare.com",
+          "loyalty.contentsquare.com",
+          "page.contentsquare.com",
+          "partnerportal.contentsquare.com",
+          "partners.contentsquare.com",
+          "security.contentsquare.com",
+          "status.contentsquare.com",
+          "support.contentsquare.com",
+          "trust.contentsquare.com",
+          "university.contentsquare.com",
+          "uxawards.contentsquare.com",
+          "www.contentsquare.com"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "Contentsquare SDK (cf : Program Description)",
+            "type": "application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.contentsquare.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://m.csqtrk.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://mobile-production.content-square.net/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://s.contentsquare.net",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 5
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2500,
+        "bounty_reward_min": 0,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 5,
+        "secured": false,
+        "slug": "contentsquare-bug-bounty-program",
+        "status": "V",
+        "title": "Contentsquare Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "cryptobox-bug-bounty": {
+      "detail": {
+        "out_of_scope": [
+          "Testing any other system than https://bounty.cryptobox.com, in particular *.cryptobox.com or *.ercom.fr."
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.ercom.cryptobox.release&hl=fr",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/fr/app/cryptobox/id972602802",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://bounty.cryptobox.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 100,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "cryptobox-bug-bounty",
+        "status": "V",
+        "title": "Cryptobox",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "cyberghost-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.cyberghostvpn.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Applications/Extensions under https://www.cyberghostvpn.com/download",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.cyberghostvpn.com/en_US/apps/linux-vpn",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.cyberghostvpn.com/en_US/apps/macos-vpn",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.cyberghostvpn.com/en_US/apps/windows-vpn",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=de.mobileconcepts.cyberghost",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/us/app/id583009522",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "CyberGhost VPN servers",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.cyberghost.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.cyberghostvpn.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "cyberghost.app",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "cyberghost.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 12
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1250,
+        "bounty_reward_min": 50,
+        "country": "IM",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 12,
+        "secured": false,
+        "slug": "cyberghost-bug-bounty-program",
+        "status": "V",
+        "title": "CyberGhost - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity": {
+      "detail": {
+        "out_of_scope": [
+          "Anything that is not explicitely listed in scope section",
+          "https://www.cybermalveillance.gouv.fr"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://pprd.cybermalveillance.gouv.fr",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 1
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 1,
+        "secured": false,
+        "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+        "status": "V",
+        "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "dana-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "*.dana.id",
+          "cmsdev.dana.id",
+          "dm.dana.id",
+          "encrypt.dana.id",
+          "fiat.dana.id",
+          "techops.dana.id",
+          "webdev.dana.id",
+          "wp.dana.id"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "Core Product",
+            "type": "other"
+          }
+        ],
+        "scopes_count": 1
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 0,
+        "country": "ID",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 1,
+        "secured": false,
+        "slug": "dana-bug-bounty-program",
+        "status": "V",
+        "title": "DANA Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "datadome-bot-bounty": {
+      "detail": {
+        "out_of_scope": [
+          "Client-side web vulnerabilities",
+          "Denial of service attacks or any technique whose goal is to degrade infrastructure availability. This falls outside the scope of bot protection bypass and will not be rewarded.",
+          "Distributed attacks (scraping must be performed from a single IP at a time)",
+          "Social engineering of DataDome employees or contractors"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "api-js.datadome.co",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.captcha-delivery.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://bounty-fastly.datashield.co",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://bounty-nginx.datashield.co",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://bounty-nodejs.datashield.co",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "js.datadome.co",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1000,
+        "bounty_reward_min": 200,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "datadome-bot-bounty",
+        "status": "V",
+        "title": "DataDome Bot Bounty",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "datadome-bug-bounty": {
+      "detail": {
+        "out_of_scope": [
+          "All domains not listed In-Scope",
+          "Third-party widgets on www.datadome.co and app.datadome.co"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api-app.datadome.co/",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api-js.datadome.co",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api.datadome.co",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://customer-api.datadome.co",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://*.captcha-delivery.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://app.datadome.co",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://auth.datadome.co",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://datadome.co",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 8
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 8,
+        "secured": false,
+        "slug": "datadome-bug-bounty",
+        "status": "V",
+        "title": "DataDome Bug Bounty",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "decathlon": {
+      "detail": {
+        "out_of_scope": [
+          "All domains, subdomains, apps not listed in-scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://(navigate|engage|checkout|internal|cached-api|api).shoppingapp.decathlon.com/*",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.decathlon.app",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/fr/app/decathlon-shopping/id1168607403",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.decathlon.(fr|ch|co.uk|it|nl|de|pt|es|be)/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.decathlon.(hu|pl|ro|cz|com.tr)/",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 5
+      },
+      "list": {
+        "activity_area": "Retail",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2500,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 5,
+        "secured": false,
+        "slug": "decathlon",
+        "status": "V",
+        "title": "DECATHLON",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "digital-flanders-vulnerability-disclosure-program": {
+      "detail": {
+        "out_of_scope": [
+          "- opibus*.onderwijs*.vlaanderen.be",
+          "Newly onboarded systems may have a blackout window (up to six months).",
+          "Third-party/vendor-operated services (DV cannot authorize testing on systems not owned or operated by us).",
+          "bibis*.vlaanderen.be",
+          "cdn.vlaanderen.be",
+          "codex.opendata.api.vlaanderen.be",
+          "ets*.omgeving.vlaanderen.be",
+          "https://www.vlaanderen.be/aanmelden/help/mail.html (and ?*)",
+          "https://www.vlaanderen.be/vlaamse-overheid/contact/stuur-een-e-mail",
+          "natura2000.vlaanderen.be"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "*.vlaanderen.be",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://beta.gastwebsite-acm.burgerprofiel.ext-vlaanderen.be",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://beta.gastwebsite.burgerprofiel.ext-vlaanderen.be",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://beta.widgets.burgerprofiel.dev-vlaanderen.be/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://burgerprofiel.beta-vlaanderen.be",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://vo-gebruikersbeheer.vlaanderen.be",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "Government",
+        "archived": false,
+        "bounty": false,
+        "bounty_reward_max": null,
+        "bounty_reward_min": null,
+        "country": "BE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "digital-flanders-vulnerability-disclosure-program",
+        "status": "V",
+        "title": "Digital Flanders Vulnerability Disclosure Program",
+        "type": "vdp-in-app",
+        "vdp": true
+      }
+    },
+    "doctolib-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "Any *.sslip.io, *.nip.io, AWS ELB / load-balancer hostname, or raw IPv4 / IPv6 address",
+          "Craft CMS on www.siilo.com, plus siilo.com marketing / staging sub-domains (l.siilo.com, l-dev.siilo.com, web.siilo.com, web-dev.siilo.com, www-admin.siilo.com, mjt-dev.siilo.com, att-dev-nl.siilo.com, sandbox-nl.siilo.com, connect.siilo.com, prod-nl-web.siilo.com)",
+          "Look-alike, typo-squatting or expired domains not owned by Doctolib (e.g. www.dioctolib.de, doctolib.fr.evil.com, doctodketest.tk, doctolib-poc.partner-experience.com)",
+          "Note: should you discover a critical issue within an asset that falls outside the program's scope, we would appreciate it and may choose to offer a reward at our discretion.",
+          "Public GitHub repositories we do not own (such as student projects doing)",
+          "There is no IDOR on /api/security/tanker_groups via subject_id",
+          "Third-party assets linked from our products (e.g. login.decathlon.net, wallet.esw.esante.gouv.fr, preprod.alaxione.fr, hooks.zapier.com, cron.signitic.app, job-boards.greenhouse.io, docto.digitalstack.it, and any hospital-specific or customer-specific host)",
+          "api.tanker.io (Accessing the tanker private key is normal functioning of the Tanker protocol)",
+          "billing-client-logs.billing.doctolib.fr | api-external.datascience.doctolibdata.com",
+          "community.doctolib.com | .fr | .de | .it",
+          "developers.doctolib.com",
+          "dmp.doctolib.fr | dmp-prd-aws-*.doctolib.fr",
+          "doctocommit.doctolib.fr",
+          "doctolib-ps-ehr-downloads.s3.amazonaws.com",
+          "doctolib.atlassian.net and any *.atlassian.net path",
+          "doctolib.zendesk.com | siilo.zendesk.com",
+          "exceptions.doctolib.fr | .de",
+          "fb.doctolib.com | fb-dev.doctolib.fr",
+          "fm.doctolib.fr | fm.doctolib.it | voip.doctolib.de and other decommissioned / dangling Doctolib sub-domains",
+          "info.doctolib.com | .fr | .de | .it",
+          "media.doctolib.com",
+          "partners.doctolib.fr | partnerportal.doctolib.com | partnerprogram.doctolib.com",
+          "pro-app.doctolib.com",
+          "share.doctolib.net",
+          "status.doctolib.com | .fr | .it",
+          "store.doctolib.com",
+          "vettore.it and any related Vettore assets"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.siilo.com",
+            "type": "application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.doctolib.(fr|de|it|com|net)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Special scenarios (see description)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.doctolib.(fr|de|it)",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 9
+      },
+      "list": {
+        "activity_area": "HealthTech",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 50000,
+        "bounty_reward_min": 0,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 9,
+        "secured": false,
+        "slug": "doctolib-public-bug-bounty-program",
+        "status": "V",
+        "title": "Doctolib",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "dojo": {
+      "detail": {
+        "out_of_scope": [
+          "Everything that's out of the scope root URL"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-51",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 1
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": false,
+        "bounty_reward_max": null,
+        "bounty_reward_min": null,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 1,
+        "secured": false,
+        "slug": "dojo",
+        "status": "V",
+        "title": "YesWeHack Dojo",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "dossier-medical-partage-program": {
+      "detail": {
+        "out_of_scope": [
+          "All assets that are not listed in the scope section are to be considered as out of scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "api.dmp.gouv.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "auth.dmp.gouv.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://sip2.dmp.gouv.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.dmp.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.dmp.gouv.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "lps.dmp.gouv.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "lps2.dmp.gouv.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "web-mh.dmp.gouv.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "wps-cps.cv.dmp.gouv.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "wps-cps.dmp.gouv.fr",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 10
+      },
+      "list": {
+        "activity_area": "Government",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 10,
+        "secured": false,
+        "slug": "dossier-medical-partage-program",
+        "status": "V",
+        "title": "Dossier Medical Partag\u00e9 Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "expressvpn-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "ExpressVPN APIs",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.blts.kape.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.dbs.kape.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.dts.kape.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.enc.kape.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.expressvpn.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.jwks.kape.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.pcrs.kape.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://cp.expressapisv2.net",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://xv-cp.apis-staging.xvtest.net/",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Any Applications under https://www.expressvpn.com/latest",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "ExpressVPN Router",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "ExpressVPN VPN servers",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "TrustedServer 100,000 Bonus Award (See Program Policy for Info)",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://github.com/expressvpn/lightway",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.expressvpn.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.polymoon.it",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.xvservice.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.xvtest.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "1pw-scim.prd.iat.it.xvservice.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "app.expressmailguard.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "corp.polymoon.it",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "expressvpn.jobs",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "gatekeeper.prd.iat.it.xvservice.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "gh-mail.expressvpn.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "iat.it.xvservice.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "it.xvservice.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "networkguard.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "prd.iat.it.xvservice.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "vector.prd.iat.it.xvservice.net",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 30
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2500,
+        "bounty_reward_min": 50,
+        "country": "IM",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 30,
+        "secured": false,
+        "slug": "expressvpn-bug-bounty-program",
+        "status": "V",
+        "title": "ExpressVPN - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "ezviz-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "Demo environment (for example: ezcpcloudiot.eziot.com)",
+          "Pre-release environment(for example: pb.ys7.com)",
+          "Test environment(for example: test.ys7.com)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Hardware found on https://www.ezviz.com/category/smart-home",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.eziot.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.ezviz.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.ezviz7.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.ezvizlife.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.ezvizru.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.hicloudcam.com,",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.hikops.com,",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.ys7.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "api.ezvizlife.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "open.ys7.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "www.ezviz.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 13
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 0,
+        "country": "CN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 13,
+        "secured": false,
+        "slug": "ezviz-bug-bounty-program",
+        "status": "V",
+        "title": "Ezviz - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "fdj-united-online-betting-gaming-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes' should be considered to be out of scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "(se|fi|uk).bingo.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "/blog/ (or translated equivalent) endpoints on our sites",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "en.casinohuone.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "en.kolikkopelit.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "en.ottokasino.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "fi.mariacasino.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "fi.unibet.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://pci.kindredgroup.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.32red.com/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "int.32red.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.bingo.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.casinohuone.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.kolikkopelit.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.mariacasino.(com|se|ee|dk)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.ottocasino.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.ottokasino.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.storspelare.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.storspiller.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "payment.vladcazino.ro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.bingo.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.casinohuone.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.kolikkopelit.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.mariacasino.(com|se|ee|dk)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.ottocasino.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.ottokasino.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.storspelare.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.storspiller.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.vladcazino.ro",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 33
+      },
+      "list": {
+        "activity_area": "Media & Entertainment",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 15000,
+        "bounty_reward_min": 50,
+        "country": "SE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 33,
+        "secured": false,
+        "slug": "fdj-united-online-betting-gaming-bug-bounty-program",
+        "status": "V",
+        "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "gojek-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All other Goto assets not listed above are to be considered as out of scope",
+          "Any staging environment will be out of scope (staging domain could be indicated by words like test/integration/staging, etc)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "api.gobiz.co.id",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "api.gojek.co.id",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.gojek.app",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/id/app/gojek/id944875099",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "gofood.co.id",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "portal.gofoodmerchant.co.id",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.gobiz.co.id",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.gofood.co.id",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.gofoodmerchant.co.id",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.gojek.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.gojekapi.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.golabs.io",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 12
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 5,
+        "country": "ID",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 12,
+        "secured": false,
+        "slug": "gojek-bug-bounty-program",
+        "status": "V",
+        "title": "GOJEK - Public Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "goto-financial-public-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "- All other Goto Financial assets not listed above are to be considered as out of scope",
+          "- Any staging environment will be out of scope (staging domain could be indicated by words like test/integration/staging, etc)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "api.midtrans.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.gojek.gopay&hl=id",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/id/app/gopay-transfer-pulsa-bills/id6446321594",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "app.midtrans.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "gopaymerchant.midtrans.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "mokapos.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.midtrans.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.findaya.co.id",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.findaya.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.gaming.gopayapi.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.go-pay.co.id",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.gofin.io",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.gopayapi.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.gtflabs.io",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 14
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 7000,
+        "bounty_reward_min": 5,
+        "country": "ID",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 14,
+        "secured": false,
+        "slug": "goto-financial-public-bounty-program",
+        "status": "V",
+        "title": "GoTo Financial - Public Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "govtech-vulnerability-disclosure-programme-policy": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.gov.sg",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Domains where GovTech is the registrar",
+            "type": "other"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Government",
+        "archived": false,
+        "bounty": false,
+        "bounty_reward_max": null,
+        "bounty_reward_min": null,
+        "country": "SG",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "status": "V",
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "type": "vdp-in-app",
+        "vdp": true
+      }
+    },
+    "grw-trading-fze-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://*.grwtrading.com",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://*.dropxl.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Retail",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "AE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "grw-trading-fze-bug-bounty-program",
+        "status": "V",
+        "title": "GRW Trading FZE - Open Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "harman-international-public-bug-bounty": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "Mobile app versions that are not currently in app stores."
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apis.onecloud.harman.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://bluetooth-events.onecloud.harman.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://edgeapis.onecloud.harman.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://events.onecloud.harman.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://ota.onecloud.harman.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://quantum-events.onecloud.harman.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://tms.onecloud.harman.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Device: JBL Authentics 200",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Device: JBL Authentics 300",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Device: JBL Authentics 500",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Device: JBL Bar 1000MK2",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Device: JBL Bar 1300MK2",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Device: JBL Bar 300MK2",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Device: JBL Bar 500MK2",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Device: JBL Bar 700MK2",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Device: JBL Bar 800MK2",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Device: JBL Boombox 3 Wi-Fi",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Device: JBL Charge 5",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Device: JBL Charge 5 Wi-Fi",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Device: JBL Flip 7",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Device: JBL Live Beam 3",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Device: JBL PartyBox Encore 2",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Device: JBL Tour One M3",
+            "type": "other"
+          }
+        ],
+        "scopes_count": 25
+      },
+      "list": {
+        "activity_area": "Manufacturing",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 4000,
+        "bounty_reward_min": 100,
+        "country": "US",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 25,
+        "secured": false,
+        "slug": "harman-international-public-bug-bounty",
+        "status": "V",
+        "title": "Harman International Lifestyle Products & Services",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "harman-international-web-applications": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "cloud.cloud1.harmanaudio.com",
+          "cloud.cloud2.harmanaudio.com",
+          "cloud.cloud3.harmanaudio.com",
+          "https://devicedb.roonlabs.net/1/devicedb-*.zip",
+          "https://secondchance.jbl.com/module/stripe_official/createIntent",
+          "jp.harmanaudio.com",
+          "jp.jbl.com"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "*.account.roon.app",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.de.jbl.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.gotdrops.cloud",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.gotdrops.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.harmanaudio.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.harmankardon.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.in.jbl.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.jbl.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.jbl.com.br",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.jbl.nl",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.jbl.ru",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.roon.app",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.roondrops.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.roonessentials.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.roonessentials.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.roonlabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.roonlabs.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.support.jbl.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.uk.harmanaudio.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.uk.jbl.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.bostonacoustics.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.bowerswilkins.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.classeaudio.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.definitivetechnology.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.denon.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.marantz.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.polkaudio.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 27
+      },
+      "list": {
+        "activity_area": "Manufacturing",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 4000,
+        "bounty_reward_min": 100,
+        "country": "US",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 27,
+        "secured": false,
+        "slug": "harman-international-web-applications",
+        "status": "V",
+        "title": "HARMAN International - Web Applications",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "imou-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://partnerapi.imoulife.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://app-*.easy4ipcloud.com",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://app.easy4ipcloud.com",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://glow.imoulife.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://hg.easy4ipcloud.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.imou.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1200,
+        "bounty_reward_min": 10,
+        "country": "CN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "imou-public-bug-bounty-program",
+        "status": "V",
+        "title": "IMOU Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "komoju-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "Account squatting, or registering accounts to prevent others from signing up, is out of scope.",
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://doc.komoju.com/docs/fields-overview",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://yeswehack.staging.komoju.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 7000,
+        "bounty_reward_min": 50,
+        "country": "JP",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "komoju-public-bug-bounty-program",
+        "status": "V",
+        "title": "KOMOJU - Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "louis-vuitton-malletier-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "*.louisvuitton.com",
+          "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.api.louisvuitton.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://appgallery.huawei.com/#/app/C102099703?locale=zh_CN&source=appshare&subsource=C102099703",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.vuitton.android&hl=fr&gl=US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/fr/app/louis-vuitton-city-guide/id1014618396",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/fr/app/louis-vuitton/id709101942",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://[it | fr | us | sg | \u2026].louisvuitton.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "Retail",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "louis-vuitton-malletier-public-bug-bounty-program",
+        "status": "V",
+        "title": "Louis Vuitton Malletier - Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "maya-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "Non-Production environments (test, dev, staging, or sandbox)",
+          "Other subdomain of paymaya.com that has no direct integration/part of the mobile application"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.paymaya.com/",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://connect.paymaya.com/",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://op.paymaya.com/",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://paymayabiller-prod.paymaya.com/",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://payoutapi.maya.ph/",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://pg.paymaya.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://appgallery.huawei.com/app/C101186357",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.paymaya",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
+            "type": "mobile-application-ios"
+          }
+        ],
+        "scopes_count": 9
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 50,
+        "country": "PH",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 9,
+        "secured": false,
+        "slug": "maya-public-bug-bounty-program",
+        "status": "V",
+        "title": "Maya - Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "mediamarktsaturn-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program."
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=at.com.media.markt",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=be.com.media.markt",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=ch.mediamarkt",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.media.markt",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.media.saturn",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=es.mediamarkt.app",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=it.mediamarket.mediaworld",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=nl.com.media.markt",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=pl.mediamarkt",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=tr.com.media.markt",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/at/app/mediamarkt-%C3%B6sterreich/id583300669",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/be/app/mediamarkt-belgi%C3%AB/id958993034",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/ch/app/media-markt-schweiz/id1169043480",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/de/app/mediamarkt-deutschland/id386304604",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/de/app/saturn-deutschland/id557562682",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/es/app/mediamarkt-comprar-online/id1438532508",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/it/app/mediaworld-app/id1076895831",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/nl/app/mediamarkt-nederland/id573907448",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/pl/app/mediamarkt-polska/id6470200706",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/tr/app/mediamarkt-t%C3%BCrkiye/id908956795",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.at",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.be",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.ch",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.com.tr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.es",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.hu",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.nl",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediamarkt.pl",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.mediaworld.it",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.saturn.de",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 31
+      },
+      "list": {
+        "activity_area": "Retail",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 4000,
+        "bounty_reward_min": 100,
+        "country": "DE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 31,
+        "secured": false,
+        "slug": "mediamarktsaturn-bug-bounty-program",
+        "status": "V",
+        "title": "MediaMarktSaturn Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "memento-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'.",
+          "Smart contracts."
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://api.dextf.com/dcd/",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://api.dextf.com/dd/",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://bug-bounty-dfm.mementoblockchain.com/",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 4000,
+        "bounty_reward_min": 0,
+        "country": "SG",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "memento-bug-bounty-program",
+        "status": "V",
+        "title": "Memento - Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "mon-espace-sante-mes": {
+      "detail": {
+        "out_of_scope": [
+          "Anything that is not explicitely listed as part of the Scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "api.developer.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "api.editeur.preprod.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "api.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "api.preprod.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "editeur.api.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "preprod.api.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "preprod.editeur.api.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.editeur.api.monespacesante.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "am.editeur.preprod.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "am.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "am.preprod.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "editeur.am.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "preprod.am.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "preprod.editeur.am.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.am.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.editeur.am.monespacesante.fr",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "apps.apple.com/fr/app/mon-espace-sant%C3%A9/id1589255019 (iOS)",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "admincms.developer.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "admincms.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "adminstore.developer.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "adminstore.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "am.developer.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "auth.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "auth.preprod.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "cms.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "editeurs.developer.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "editeurs.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "fhir.developer.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "fhir.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "knowage.developer.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "knowage.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "preprod.auth.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "preprod.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "preprod1.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "preprod2.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "securite.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "support.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "wps-cps.dmp.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.preprod.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.preprod1.monespacesante.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.preprod2.monespacesante.fr",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 43
+      },
+      "list": {
+        "activity_area": "Government",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 8000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 43,
+        "secured": false,
+        "slug": "mon-espace-sante-mes",
+        "status": "V",
+        "title": "Mon Espace Sant\u00e9 (MES)",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "moneybox-bug-bounty": {
+      "detail": {
+        "out_of_scope": [
+          "- Any reports relating to improper authorization / information disclosure on api.moneyboxapp.com through /investment/payments/GetGiftUser/{code} and PII leak or sensitive data exposure is out of scope as this was intended by design.",
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api.moneyboxapp.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.moneyboxapp",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/gb/app/moneybox-save-and-invest/id1049797239",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://admin-roundups.moneyboxapp.org",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://admin.moneyboxapp.org",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://sycamore.moneyboxapp.org",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "GB",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "moneybox-bug-bounty",
+        "status": "V",
+        "title": "Moneybox Bug Bounty",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "okto-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "All other third parties",
+          "CMS websites own by Okto (Anything related to Wordpress etc)",
+          "Customer support form (https://help-okto.sprinklr.com/help/)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+            "type": "mobile-application-ios"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 0,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "okto-bug-bounty-program",
+        "status": "V",
+        "title": "Okto - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "onedoc-sa-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api.onedoc.ch",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://pro.onedoc.ch",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://telehealth.onedoc.ch",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.onedoc.ch",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 4
+      },
+      "list": {
+        "activity_area": "HealthTech",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 50,
+        "country": "CH",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 4,
+        "secured": false,
+        "slug": "onedoc-sa-bug-bounty-program",
+        "status": "V",
+        "title": "OneDoc",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "ooredoo-qpsc-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "https://mobile.ooredoo.qa",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=qa.ooredoo.android&hl=en&gl=US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://apps.apple.com/qa/app/ooredoo-qatar/id619828745",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://selfcare.ooredoo.qa",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.ooredoo.qa",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 5
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1500,
+        "bounty_reward_min": 50,
+        "country": "QA",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 5,
+        "secured": false,
+        "slug": "ooredoo-qpsc-bug-bounty-program",
+        "status": "V",
+        "title": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "otto-de-bug-bounty": {
+      "detail": {
+        "out_of_scope": [
+          "/apps-messenger (the chatbot in general is out of scope)",
+          "/tracking",
+          "All domains not listed In-Scope",
+          "Out-Of-Scope are also other applications hosted under the www.otto.de domain but have a different path, that is not part of our core online shop itself (you will notice, since the design of the page is completely different)",
+          "Please let us know if you have any questions regarding the scope.",
+          "Those include but are not limited to (if unsure, contact us before executing the tests):",
+          "https://keycloak.apps.otto.de",
+          "https://www.otto.de/clara",
+          "https://www.otto.de/kundenchat",
+          "https://www.otto.de/newsroom",
+          "https://www.otto.de/reblog",
+          "https://www.otto.de/roombeez",
+          "https://www.otto.de/soulfully",
+          "https://www.otto.de/twoforfashion",
+          "https://www.otto.de/updated",
+          "https://www.otto.de/user/contactFormSubmit",
+          "https://www.otto.de/user/sendcallbackrequest"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://mmp.otto.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://orbidder.otto.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://retail-api.otto.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://supplier-connect.otto.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://teleoptiprd.otto.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.lascana.de/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.otto.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.otto.de/jobs",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 10
+      },
+      "list": {
+        "activity_area": "Retail",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2500,
+        "bounty_reward_min": 50,
+        "country": "DE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 10,
+        "secured": false,
+        "slug": "otto-de-bug-bounty",
+        "status": "V",
+        "title": "OTTO.DE Bug Bounty",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "outscale": {
+      "detail": {
+        "out_of_scope": [
+          "Any resource created or accessed with the Outscale Cloud, on all regions - except the ones created by the Hunter",
+          "Attack against Outscale offices (malware, backdoor, DoS, etc.)",
+          "Dataleaks or 3DS OUTSCALE-related vulnerabilities outside the scope of the IaaS Cloud Service.",
+          "Denial of service attacks",
+          "E-mail server configuration (DKIM/SPF/DMARC)",
+          "Issues in our DNS and NTP",
+          "Issues not leading to confidentiality, traceability or integrity problems. You can report it to support@outscale.com.",
+          "Other subdomains on outscale.com (wiki.outscale.net, fr.outscale.com, en.outscale.com... )",
+          "Same behavior as Amazon Web Services",
+          "Social engineering of Outscale employees and contractors",
+          "Vulnerabilities on products or services other than Cockpit or APIs"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "https://directlink.eu-west-2.outscale.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://eim.eu-west-2.outscale.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://fcu.eu-west-2.outscale.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://icu.eu-west-2.outscale.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://lbu.eu-west-2.outscale.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://osu.eu-west-2.outscale.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "Any resource created or accessed with the Outscale Cloud on eu-west-2 region -  created by the Hunter",
+            "type": "other"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://cockpit-eu-west-2.outscale.com/",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 8
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 8,
+        "secured": false,
+        "slug": "outscale",
+        "status": "V",
+        "title": "3DS OUTSCALE",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "ovh": {
+      "detail": {
+        "out_of_scope": [
+          "*.osp.ovh.com",
+          "All domains, subdomains or applications not listed in the above list of 'Scopes'",
+          "Vulnerabilities reported on client services"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "*.soyoustart.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "api.ovh.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "www.ovh.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 12500,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "ovh",
+        "status": "V",
+        "title": "OVHcloud",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "paddle-com-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains, subdomains or assets not listed in the above list of 'Scopes' must be considered as out of the scope of this program",
+          "https://buy.paddle.com",
+          "https://checkout-service.paddle.com"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api.paddle.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://sandbox-api.paddle.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://customer-portal.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://developer.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://login.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://paddle.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://sandbox-buy.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://sandbox-checkout-service.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://sandbox-login.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://sandbox-vendors.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://vendors.paddle.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.paddle.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 12
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 50,
+        "country": "GB",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 12,
+        "secured": false,
+        "slug": "paddle-com-public-bug-bounty-program",
+        "status": "V",
+        "title": "Paddle.com Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "pine-labs-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All other Pine Labs assets that are not listed above are to be treated as out of scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api.pluralonline.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api.pluralpay.in",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://pinepg.in",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://pluralcheckout.pinepg.in",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=com.pinelabs.emicatalogue.pinelabs&hl=uz",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "analytics.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "dashboard.pluralonline.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://billingserver.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://board.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://credit.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://emistores.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://lounge.pinelabs.com/loungeui/login",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://myplutus.pinelabs.my",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://nbs.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://pinepgconsole.in:9099",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://plmcixt.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://trm.pinelabs.ae",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://www.letspaylater.ph",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.pinelabs.ae",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.pinelabs.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.pinelabs.my",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.pinelabs.us",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "trm.pinepaymentsolutions.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 23
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1000,
+        "bounty_reward_min": 0,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 23,
+        "secured": false,
+        "slug": "pine-labs-bug-bounty-program",
+        "status": "V",
+        "title": "Pine Labs Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "private-internet-access-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "api.privateinternetaccess.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://privateinternetaccess.com/api/client/v5",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Applications/Extensions under https://www.privateinternetaccess.com/download",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.privateinternetaccess.com/download/linux-vpn",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.privateinternetaccess.com/download/mac-vpn",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://www.privateinternetaccess.com/download/windows-vpn",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.privateinternetaccess.android&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/us/app/private-internet-access-anonymous/id955626407",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "PIA VPN servers",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.piaservers.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.piaservers.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.privateinternetaccess.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 12
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1250,
+        "bounty_reward_min": 50,
+        "country": "IM",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 12,
+        "secured": false,
+        "slug": "private-internet-access-bug-bounty-program",
+        "status": "V",
+        "title": "Private Internet Access - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd": {
+      "detail": {
+        "out_of_scope": [
+          "All domains not listed In-Scope."
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://api3.pentest.clicsante.ca/",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://auth-ywh.it.authentification.si.gouv.qc.ca/",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://admin3.pentest.clicsante.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://auth.pentest.clicsante.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://auth.pentest.clicsante.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://clients3.pentest.clicsante.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://gap.citizenportal-test.bugbounty.akinox.dev/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-revision/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/reponses-questions/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://pbgq-pes.upac.gouv.qc.ca/denonciation/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://pbgq-pes.upac.gouv.qc.ca/nous-joindre/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://pbgq.upac.gouv.qc.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://poc-op-ywh.it.authentification.si.gouv.qc.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://portal3.pentest.clicsante.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://profile.pentest.clicsante.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://reptox.cnesst.gouv.qc.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://test.m4sv.bugbounty.akinox.dev/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.cyber.gouv.qc.ca/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https:/pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-acces-info/",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 19
+      },
+      "list": {
+        "activity_area": "Government",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "CA",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 19,
+        "secured": false,
+        "slug": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
+        "status": "V",
+        "title": "Programme de prime aux bogues du Gouvernement du Qu\u00e9bec",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "qwant": {
+      "detail": {
+        "out_of_scope": [],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "api.qwant.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "qwantjunior.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "s.qwant.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "s1.qwant.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "s2.qwant.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.qwant.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 100,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "qwant",
+        "status": "V",
+        "title": "Qwant",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "salt-mobile-sa-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "https://eshop.salt.ch",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://login.salt.ch",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://my.salt.ch",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "CH",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "salt-mobile-sa-bug-bounty-program",
+        "status": "V",
+        "title": "Salt Mobile SA - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "sante-publique-france-bugbounty-public-program": {
+      "detail": {
+        "out_of_scope": [
+          "Domains not listed in scope are by default all out of scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "sso.mangerbouger.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "mangerbouger.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "professionnels.vaccination-info-service.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "vaccination-info-service.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.1000-premiers-jours.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.onsexprime.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.tabac-info-service.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.vivre-avec-la-chaleur.fr",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 8
+      },
+      "list": {
+        "activity_area": "Government",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1500,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 8,
+        "secured": false,
+        "slug": "sante-publique-france-bugbounty-public-program",
+        "status": "V",
+        "title": "Sant\u00e9 Publique France Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "sogexia": {
+      "detail": {
+        "out_of_scope": [
+          "Social media accounts",
+          "all domains not listed in scopes, noteworthy:",
+          "support.sogexia.com",
+          "www.sogexia.com",
+          "www.sogexiaclub.com"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=io.gonative.android.xjndrq&hl=fr",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "itmss://apps.apple.com/us/app/id1510360750?ign-mscache=1",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://my.sogexia.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 100,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "sogexia",
+        "status": "V",
+        "title": "Sogexia",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "swapcard": {
+      "detail": {
+        "out_of_scope": [
+          "*dev.swapcard.com",
+          "By default all the endpoints that are not listed in the allowed scopes are out of scope of the program.",
+          "aide.swapcard.com (Zoho)",
+          "blog.swapcard.com (Hubspot)",
+          "books.swapcard.com (Zoho)",
+          "c.swapcard.com",
+          "help.swapcard.com (Zoho)",
+          "l.swapcard.com",
+          "page.swapcard.com",
+          "sentry.swapcard.com (Except if you notice a miss-configuration)",
+          "survey.swapcard.com",
+          "www.swapcard.com (static corporate website)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "api.swapcard.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "chat-api.swapcard.com/graphql",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "developer.swapcard.com/event-admin/graphql",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "img.swapcard.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "login.swapcard.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "studio-api.swapcard.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "t.swapcard.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/fr/app/swapcard/id879488719",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "app.swapcard.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "studio.swapcard.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "team.swapcard.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 12
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 12,
+        "secured": false,
+        "slug": "swapcard",
+        "status": "V",
+        "title": "Swapcard",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "swiss-post": {
+      "detail": {
+        "out_of_scope": [
+          "Any services related to Incamail (for example https://incamail-dev.post.ch (194.41.248.224) and https://incamail-test.post.ch (194.41.248.58))",
+          "Anything that has not been described as in scope in the previous section is automatically out of scope.",
+          "Attacks on administrative and surrounding systems that are not used for the in-scope services are not permitted (this includes DNS, NTP, routers, systems of the ISP, etc.).",
+          "Please note that some of the applications may contain links or redirect you away from the URIs described in the scope section. This means you are leaving the scope if you follow these links / redirects.",
+          "The alternative login (https://login.swissid.ch) is out of scope. It also leads to the in-scope service, (https://account.post.ch) but we have designated it as out of scope."
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=ch.post.it.pcc&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://itunes.apple.com/ch/app/postcard-creator/id820354055?mt=8",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "(*.post.ch:80|*.post.ch:443) AND 194.41.128.0/17",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://account.post.ch",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://service.post.ch/ekp-web/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://service.post.ch/ele-klp/ele/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://service.post.ch/zopa/app/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://shop.post.ch/shop",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 11
+      },
+      "list": {
+        "activity_area": "Transportation",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 10000,
+        "bounty_reward_min": 50,
+        "country": "CH",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 11,
+        "secured": false,
+        "slug": "swiss-post",
+        "status": "V",
+        "title": "Swiss Post",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "swiss-post-evoting": {
+      "detail": {
+        "out_of_scope": [
+          "Anything that is not explicitely listed in the \u2018Scope\u2019 section."
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "Protocol of the Swiss Post Voting System",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Scenarios with Special Bounties",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Source Code",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "System Specification",
+            "type": "other"
+          }
+        ],
+        "scopes_count": 4
+      },
+      "list": {
+        "activity_area": "Transportation",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 230000,
+        "bounty_reward_min": 100,
+        "country": "CH",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 4,
+        "secured": false,
+        "slug": "swiss-post-evoting",
+        "status": "V",
+        "title": "Swiss Post - E-Voting",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "teamviewer-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains not listed In-Scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.teamviewer.com/en/products/teamviewer/",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://account.teamviewer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://login.teamviewer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://web.teamviewer.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 9
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 10000,
+        "bounty_reward_min": 100,
+        "country": "DE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 9,
+        "secured": false,
+        "slug": "teamviewer-bounty-program",
+        "status": "V",
+        "title": "TeamViewer - Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "telenor-sweden-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "*.bbcust.telenor.se",
+          "*.cust.bredbandsbolaget.se",
+          "*.cust.ownit.se",
+          "*.cust.telenor.se",
+          "*.customers.ownit.se",
+          "*.ownit.nu",
+          "*.sme.telenor.se",
+          "Any domain that looks like it's owned by a third party or customer due to customer's privacy",
+          "Mobile services and devices provided by Telenor Sweden and subsidiaries not reachable from Internet",
+          "Other business units of the Telenor Group - including *.telenor.com",
+          "Telenor ID",
+          "faq.vimla.se",
+          "stage-vimla-se.vimla.io",
+          "tc.ownit.se"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.bredbandsbolaget.se",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.europolitan.se",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.inpli.se",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.ownit.se",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.telenor.se",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "*.telenorinpli.se",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.vimla.io",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.vimla.se",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.vimla.work",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 9
+      },
+      "list": {
+        "activity_area": "Media & Entertainment",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 50,
+        "country": "SE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 9,
+        "secured": false,
+        "slug": "telenor-sweden-public-bug-bounty-program",
+        "status": "V",
+        "title": "Telenor Sweden Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "tencent-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "*. myqcloud.com",
+          "*.qzoneapp.com",
+          "*Notes about Tencent Cloud (cloud.tencent.com as included in *.tencent.com)",
+          "Only vulnerabilities affecting the platform itself and IP owned by Tencent will be accepted. If an IP belongs to Tencent Cloud external customer, it is not considered in scope.",
+          "Please note that the vulnerabilities reported for the following assets will not be eligible for bounties.",
+          "Third-party applications and websites"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+            "type": "other"
+          }
+        ],
+        "scopes_count": 1
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 6425,
+        "bounty_reward_min": 8,
+        "country": "CN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 1,
+        "secured": false,
+        "slug": "tencent-bug-bounty-program",
+        "status": "V",
+        "title": "Tencent Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "thuringer-aufbaubank-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All 3rd parties are out of scope",
+          "All domains not listed In-Scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://login.aufbaubank.de",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://thueringer-foerderportal.eu",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 7000,
+        "bounty_reward_min": 50,
+        "country": "DE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "thuringer-aufbaubank-bug-bounty-program",
+        "status": "V",
+        "title": "Th\u00fcringer Aufbaubank Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "vfs-global-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All other VFS assets that are not listed above as in scope are automatically out of scope",
+          "https://egonline.vfsevisa.com/main-es2015.c7bb991442356b23f23e.js?v=3.1.3",
+          "https://india-usa.vfsglobal.com",
+          "https://liftassets.vfsglobal.com/_nuxt/46217fc777819548fddb.js",
+          "https://online.vfsevisa.com/main-es2015.521ef2e1d9f68fd1bb90.js",
+          "https://online.vfsevisa.com/main-es2015.6d514e86ec7c6492aafc.js?v=3.1.2",
+          "https://online.vfsevisa.com/main-es5.521ef2e1d9f68fd1bb90.js?v=3.1.6",
+          "https://portal.vfsevisa.com/main-es2015.7857657af609ca5e4bc5.js?v=3.1.4",
+          "https://portal.vfsevisa.com/main-es2015.987b1b526aa8041bfdee.js",
+          "https://portal.vfsevisa.com/main-es5.987b1b526aa8041bfdee.js?v=3.1.6",
+          "https://uat-lift.vfsglobal.com/_angular/main.8dbd1aa97c38b188.js?v=6.0.29",
+          "https://uat-lift.vfsglobal.com/_angular/main.c05c54e8703c3a9f.js?v=6.0.36",
+          "https://ukvitest.vfsglobal.com/_angular/main.3ca04c44a2718f71.js?v=1.0.22",
+          "https://vire.vfsglobal.com",
+          "myeasydocs.co.il",
+          "nssr-7.vfsglobal.com",
+          "vfsglobal.com.ru"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ru-yandex-api-app.vfsevisa.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.vfsglobal.(com|co.uk|ca)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "agents.tasheer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "biometservices.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "evisa.gov.mz",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://cicforms.mioot.com/forms/PS/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://equatorialguinea-evisa.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://indonesiavoa.vfsevisa.id/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://mohesr.vfsglobal.com/forms/CVUAE/admin/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://online.mustaqel.qa/qat/en/login",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://online.srilankaevisa.lk/lka/en/login",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://vc.tasheer.com/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://vfs-ai-tiff-image-api-hchkdabjdsdya6ea.switzerlandnorth-01.azurewebsites.net/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://vfs.mioot.com/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://vfseu.mioot.com/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://vfsforms.mioot.com/forms/EIAT/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://vfsforms.mioot.com/forms/IFAL/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.vfsvisaservice.com/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "phlonline.vfsevisa.cn",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "phlportal.vfsevisa.cn",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "svtselb.tasheer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.dvpc.net",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.vfsvisaonline.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "www.vfsvisaservicesrussia.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*. vfsevisa.id",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.directverify.in",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.docswallet.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.onevasco.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.vascoworldwide.net",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.vfsai.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.vfsevisa.com",
+            "type": "wildcard"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.vfsglobal.by",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 42
+      },
+      "list": {
+        "activity_area": "Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1500,
+        "bounty_reward_min": 5,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 42,
+        "secured": false,
+        "slug": "vfs-global-bug-bounty-program",
+        "status": "V",
+        "title": "VFS Global Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "vidaxl-services-open-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "https://*.vidaxl.net",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://*.vidaxl.org",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://parcelhubeurope.com",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://*.vidaxl.io",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://www.vidaxl.(at|be|bg|ch|co.uk.com|com.au|com.ua|com|cz|de|dk|ee|es|fi|fr|gr|ie|is|it|hr|hu|lt|lv|no|nl|pl|pt|ro|se|si|sk|uk|ae|ca|jp)",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 5
+      },
+      "list": {
+        "activity_area": "Retail",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "HK",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 5,
+        "secured": false,
+        "slug": "vidaxl-services-open-bug-bounty-program",
+        "status": "V",
+        "title": "vidaXL Services - Open Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "vincisa-public-program": {
+      "detail": {
+        "out_of_scope": [
+          "!! Links pointing to other FQDNs are always out of scope !!",
+          "All PDF documents published or served on castor.vinci.com are public, thank you for not reporting any bug linked to the accessibility of these documents.",
+          "Anything that is not explicitely listed in scope section",
+          "Please note that www.lafabriquedelacite.com is out of scope from today 10/12/25 as the web site is going to be redeveloped.",
+          "only exception: wishes.vinci.com (english version of voeux.vinci.com) is included in the scope"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "actionnaires.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "boost.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "castor.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "emag.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "essentials.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "essentiel.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "jobs.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "leonard.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "solutions-environnement.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "stats.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "survey.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "vinci-groupe.profils.org",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "v\u0153ux.vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.chaire-arpenter.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.fondation-vinci.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.habileoh.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.lab-recherche-environnement.org",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.trajeoh.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.vinci-vie.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "www.vinci.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 20
+      },
+      "list": {
+        "activity_area": "Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 20,
+        "secured": false,
+        "slug": "vincisa-public-program",
+        "status": "V",
+        "title": "VINCI SA - Public program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "withings-public-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains, devices and mobile Apps not listed In-Scope."
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://scalews.withings.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://wbsapi.withings.net",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Body Comp scale",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Body Scan scale",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Scanwatch",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Scanwatch 2",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Scanwatch Light",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Scanwatch Nova",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://account.withings.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://app.withings.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://developer.withings.com/dashboard/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://healthmate.withings.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 12
+      },
+      "list": {
+        "activity_area": "HealthTech",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 0,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 12,
+        "secured": false,
+        "slug": "withings-public-program",
+        "status": "V",
+        "title": "Withings",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "xelians-blackbox-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://preprod-datahub.xelians.fr/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://preprod-xam.xelians.fr/",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 1500,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "xelians-blackbox-program",
+        "status": "V",
+        "title": "Xelians - Blackbox program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "yes-we-hack": {
+      "detail": {
+        "out_of_scope": [
+          "Any issues with Wallet or KYC features (There are third party services)",
+          "Vulnerabilities reported on other services or applications are not allowed."
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://api.yeswehack.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.yeswehack.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://www.yeswehack.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://yeswehack.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 4
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 15000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 4,
+        "secured": false,
+        "slug": "yes-we-hack",
+        "status": "V",
+        "title": "YesWeHack",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "zecible-public-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "cam.notebleue.pro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "odoo14.notebleue.pro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "registre.notebleue.pro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "serveur12.notebleue.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "svn.notebleue.pro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "todo.notebleue.pro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "webtoolbox.notebleue.pro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.admin.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.api.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.comptage.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.crons.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.dev.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.fichiers.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.mydata.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.routage.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.static.zecible.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ywh.update.zecible.fr",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 17
+      },
+      "list": {
+        "activity_area": "Marketing Tech",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 100,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 17,
+        "secured": false,
+        "slug": "zecible-public-bug-bounty-program",
+        "status": "V",
+        "title": "ZECIBLE PUBLIC BUG BOUNTY PROGRAM",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    }
+  },
+  "version": 1
+}
