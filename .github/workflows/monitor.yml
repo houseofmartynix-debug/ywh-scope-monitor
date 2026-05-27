@@ -50,12 +50,13 @@ jobs:
 
       - name: Commit state changes
         run: |
-          if [[ -n "$(git status --porcelain state.json diff_log.jsonl)" ]]; then
-            git config user.name  "ywh-monitor-bot"
-            git config user.email "ywh-monitor-bot@users.noreply.github.com"
-            git add state.json diff_log.jsonl
+          git config user.name  "ywh-monitor-bot"
+          git config user.email "ywh-monitor-bot@users.noreply.github.com"
+          [[ -f state.json ]]      && git add state.json      || true
+          [[ -f diff_log.jsonl ]]  && git add diff_log.jsonl  || true
+          if git diff --cached --quiet; then
+            echo "no state changes"
+          else
             git commit -m "state: $(date -u +%Y-%m-%dT%H:%MZ) tick"
             git push
-          else
-            echo "no state changes"
           fi

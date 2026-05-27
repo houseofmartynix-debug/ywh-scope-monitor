@@ -48,12 +48,14 @@ TG_API = "https://api.telegram.org/bot{token}/sendMessage"
 
 def load_state() -> dict:
     if not STATE_FILE.exists():
-        return {"programs": {}, "last_run": None, "version": 1}
+        return {"programs": {}, "version": 1}
     try:
-        return json.loads(STATE_FILE.read_text())
+        s = json.loads(STATE_FILE.read_text())
+        s.pop("last_run", None)
+        return s
     except Exception as e:
         log.error("state file corrupt, starting fresh: %s", e)
-        return {"programs": {}, "last_run": None, "version": 1}
+        return {"programs": {}, "version": 1}
 
 
 def save_state(state: dict) -> None:
@@ -339,7 +341,6 @@ def run() -> int:
         else:
             log.info("seed-only mode — saving state and exiting")
         state["programs"] = new_programs
-        state["last_run"] = int(time.time())
         save_state(state)
         return 0
 
@@ -363,7 +364,6 @@ def run() -> int:
 
     append_audit(audit_rows)
     state["programs"] = new_programs
-    state["last_run"] = int(time.time())
     save_state(state)
     log.info("done — %d events, %d notifications sent", len(events), sent)
     return 0
