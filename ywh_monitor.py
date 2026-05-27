@@ -42,8 +42,22 @@ log = logging.getLogger("ywh-monitor")
 STATE_FILE = Path(os.getenv("STATE_FILE", "state.json"))
 AUDIT_FILE = Path(os.getenv("AUDIT_FILE", "diff_log.jsonl"))
 MAX_DETAIL = int(os.getenv("MAX_DETAIL", "200"))
+HEARTBEAT_INTERVAL = int(os.getenv("HEARTBEAT_INTERVAL", "86400"))  # 24h default
 
 TG_API = "https://api.telegram.org/bot{token}/sendMessage"
+
+
+def build_heartbeat(programs: dict) -> str:
+    total = len(programs)
+    bounty = sum(1 for p in programs.values() if (p.get("list") or {}).get("bounty"))
+    vdp = sum(1 for p in programs.values() if (p.get("list") or {}).get("vdp"))
+    scopes_total = sum((p.get("list") or {}).get("scopes_count") or 0 for p in programs.values())
+    return (
+        f"\U0001f493 <b>YWH Monitor — heartbeat</b>\n"
+        f"Tracking: <b>{total}</b> programs ({bounty} BBP, {vdp} VDP)\n"
+        f"Total scopes: <b>{scopes_total}</b>\n"
+        f"No changes since last heartbeat."
+    )
 
 
 def load_state() -> dict:
@@ -364,6 +378,17 @@ def run() -> int:
 
     append_audit(audit_rows)
     state["programs"] = new_programs
+
+    last_hb = int(state.get("last_heartbeat_ts") or 0)
+    now_ts = int(time.time())
+    if not dry and (now_ts - last_hb) >= HEARTBEAT_INTERVAL:
+        hb_text = build_heartbeat(new_programs)
+        if send_telegram(token, chat_id, hb_text, dry=dry):
+            state["last_heartbeat_ts"] = now_ts
+            log.info("heartbeat sent (last was %d s ago)", now_ts - last_hb)
+        else:
+            log.warning("heartbeat send failed; will retry next run")
+
     save_state(state)
     log.info("done — %d events, %d notifications sent", len(events), sent)
     return 0
