@@ -3737,102 +3737,17 @@
         ],
         "scopes": [
           {
-            "asset_value": "HIGH",
-            "scope": "https://api3.pentest.clicsante.ca/",
-            "type": "api"
-          },
-          {
             "asset_value": "CRITICAL",
             "scope": "https://auth-ywh.it.authentification.si.gouv.qc.ca/",
-            "type": "api"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://admin3.pentest.clicsante.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://auth.pentest.clicsante.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://auth.pentest.clicsante.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://clients3.pentest.clicsante.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "LOW",
-            "scope": "https://gap.citizenportal-test.bugbounty.akinox.dev/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-revision/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://pbgq-pes.deontologie-policiere.gouv.qc.ca/reponses-questions/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://pbgq-pes.upac.gouv.qc.ca/denonciation/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://pbgq-pes.upac.gouv.qc.ca/nous-joindre/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://pbgq.upac.gouv.qc.ca/",
             "type": "web-application"
           },
           {
             "asset_value": "CRITICAL",
             "scope": "https://poc-op-ywh.it.authentification.si.gouv.qc.ca/",
             "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://portal3.pentest.clicsante.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://profile.pentest.clicsante.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "LOW",
-            "scope": "https://reptox.cnesst.gouv.qc.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://test.m4sv.bugbounty.akinox.dev/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://www.cyber.gouv.qc.ca/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https:/pbgq-pes.deontologie-policiere.gouv.qc.ca/demande-acces-info/",
-            "type": "web-application"
           }
         ],
-        "scopes_count": 19
+        "scopes_count": 2
       },
       "list": {
         "activity_area": "Government",
@@ -3844,7 +3759,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 19,
+        "scopes_count": 2,
         "secured": false,
         "slug": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd",
         "status": "V",
