@@ -2348,6 +2348,262 @@
         "vdp": false
       }
     },
+    "infomaniak-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "Assets not listed in the in scope section are to be considered as out of the scope of this program and won't be eligible for reward",
+          "Database service instances from customers, like *.dbaas.infomaniak.cloud",
+          "FTP credentials from our customers, like *.ftp.infomaniak.com",
+          "Jelastic subdomains : *.jcloud.ik-server.com, *.jpc.infomaniak.com, *.jpe.infomaniak.com",
+          "MySQL credentials from our customers, like *.myd.infomaniak.com",
+          "S3 credentials from our customers, like s3.pub*.infomaniak.cloud",
+          "This domain https://drive.infomaniak.com/app/office/:folder:/:file: is out of scope. This is only office application, an external app to open MS office documents.",
+          "User email verification",
+          "VPS instances from our customers, like *.vps.infomaniak.com",
+          "We do not manage Open Stack dashboard which is therefore out of scope",
+          "Websocket IPS-public credentials. Public identifiers that do not allow access to information outside the scope of the user's profile.",
+          "acronis.infomaniak.com",
+          "https://api.pub1.infomaniak.cloud",
+          "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "api.infomaniak.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://github.com/Infomaniak/desktop-kDrive",
+            "type": "application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "ai-tools.infomaniak.com",
+            "type": "mobile-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.kchat.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.kdrive.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.vod2.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "5k8vrbdyje.infomaniak.site",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "academy.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "admin2.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "calendar.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "chk.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "contacts.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "developer.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "etickets.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "euria.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "fv3lfbdyjh.infomaniak.site",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "hosting-ik.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "infomaniak.events",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "invitation.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "ix2smbdyjt.infomaniak.site",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "kmeet.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "kpaste.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "ksuite.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "l75pvbdyjo.infomaniak.site",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "login.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "mail-builder.infomaniak.com/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "mail.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "manager.infomaniak.com/v3/*",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "newsletter.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "player-radio.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "shop.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "sms.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "storage*.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "swiss-backup*.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "sync.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "vod.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "welcome.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "www.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "www.swisstransfer.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 43
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 7000,
+        "bounty_reward_min": 100,
+        "country": "CH",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 43,
+        "secured": false,
+        "slug": "infomaniak-bug-bounty-program",
+        "status": "V",
+        "title": "Infomaniak Bug Bounty program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "komoju-public-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
