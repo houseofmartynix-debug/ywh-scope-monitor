@@ -1,5 +1,5 @@
 {
-  "last_heartbeat_ts": 1780814360,
+  "last_heartbeat_ts": 1780912529,
   "programs": {
     "alasco-gmbh-bug-bounty-program": {
       "detail": {
@@ -3838,11 +3838,6 @@
           },
           {
             "asset_value": "MEDIUM",
-            "scope": "https://plmcixt.pinelabs.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
             "scope": "https://trm.pinelabs.ae",
             "type": "web-application"
           },
@@ -3877,7 +3872,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 23
+        "scopes_count": 22
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -3889,7 +3884,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 23,
+        "scopes_count": 22,
         "secured": false,
         "slug": "pine-labs-bug-bounty-program",
         "status": "V",
