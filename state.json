@@ -4822,6 +4822,11 @@
           },
           {
             "asset_value": "CRITICAL",
+            "scope": "https://uketa.vfsglobal.com/forms/UKETA/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
             "scope": "https://vc.tasheer.com/",
             "type": "web-application"
           },
@@ -4936,7 +4941,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 42
+        "scopes_count": 43
       },
       "list": {
         "activity_area": "Other",
@@ -4948,7 +4953,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 42,
+        "scopes_count": 43,
         "secured": false,
         "slug": "vfs-global-bug-bounty-program",
         "status": "V",
