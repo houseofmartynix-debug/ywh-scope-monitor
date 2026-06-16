@@ -387,55 +387,6 @@
         "vdp": false
       }
     },
-    "bug-bounty-sncf-connect-1": {
-      "detail": {
-        "out_of_scope": [
-          "All domains and subdomains that are not listed within the scope of the Bug Bounty program.",
-          "The SNCF Connect mobile applications (Android and Apple) are out of scope even if the web services they use are in scope (accessible through paths beginning by 'https://www.sncf-connect.com/bff')."
-        ],
-        "scopes": [
-          {
-            "asset_value": "HIGH",
-            "scope": "https://www.sncf-connect.com/bff",
-            "type": "api"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https//monidentifiant.sncf",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://sncf-connect.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://www.sncf-connect.com",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 4
-      },
-      "list": {
-        "activity_area": "Other",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 10000,
-        "bounty_reward_min": 0,
-        "country": "FR",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 4,
-        "secured": false,
-        "slug": "bug-bounty-sncf-connect-1",
-        "status": "V",
-        "title": "Bug Bounty SNCF Connect",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "coindcx-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
