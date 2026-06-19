@@ -4808,6 +4808,11 @@
           },
           {
             "asset_value": "CRITICAL",
+            "scope": "https://www.vfsglobalcustomerexperience.com/CustomerFeedback/GeneralFeedback/Index",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
             "scope": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
             "type": "web-application"
           },
@@ -4892,7 +4897,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 43
+        "scopes_count": 44
       },
       "list": {
         "activity_area": "Other",
@@ -4904,7 +4909,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 43,
+        "scopes_count": 44,
         "secured": false,
         "slug": "vfs-global-bug-bounty-program",
         "status": "V",

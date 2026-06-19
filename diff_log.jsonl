@@ -20,3 +20,4 @@
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "https://plmcixt.pinelabs.com", "type": "web-application"}}, "sent": true, "slug": "pine-labs-bug-bounty-program", "title": "Pine Labs Bug Bounty Program", "ts": 1780912528}
 {"event": {"kind": "scope_added", "scope": {"asset_value": "CRITICAL", "scope": "https://uketa.vfsglobal.com/forms/UKETA/", "type": "web-application"}}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1781246813}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "bug-bounty-sncf-connect-1", "title": "Bug Bounty SNCF Connect", "ts": 1781597431}
+{"event": {"kind": "scope_added", "scope": {"asset_value": "CRITICAL", "scope": "https://www.vfsglobalcustomerexperience.com/CustomerFeedback/GeneralFeedback/Index", "type": "web-application"}}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1781856042}
