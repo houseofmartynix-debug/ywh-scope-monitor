@@ -26,3 +26,4 @@
 {"event": {"kind": "scope_added", "scope": {"asset_value": "HIGH", "scope": "m.dana.id", "type": "web-application"}}, "sent": true, "slug": "dana-bug-bounty-program", "title": "DANA Bug Bounty Program", "ts": 1782702635}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "HIGH", "scope": "Core Product", "type": "other"}}, "sent": true, "slug": "dana-bug-bounty-program", "title": "DANA Bug Bounty Program", "ts": 1782702636}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "contentsquare-bug-bounty-program", "title": "Contentsquare Bug Bounty Program", "ts": 1782762626}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "govtech-vulnerability-disclosure-programme-policy", "title": "GovTech - Vulnerability Disclosure Programme", "ts": 1782771026}
