@@ -702,11 +702,21 @@
         "scopes": [
           {
             "asset_value": "HIGH",
-            "scope": "Core Product",
-            "type": "other"
+            "scope": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/id/app/dana/id1437123008",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "m.dana.id",
+            "type": "web-application"
           }
         ],
-        "scopes_count": 1
+        "scopes_count": 3
       },
       "list": {
         "activity_area": "Finance/Assurance",
@@ -718,7 +728,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 1,
+        "scopes_count": 3,
         "secured": false,
         "slug": "dana-bug-bounty-program",
         "status": "V",
