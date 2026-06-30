@@ -1770,6 +1770,44 @@
         "vdp": false
       }
     },
+    "govtech-vulnerability-disclosure-programme-policy": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.gov.sg",
+            "type": "other"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Domains where GovTech is the registrar",
+            "type": "other"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Government",
+        "archived": false,
+        "bounty": false,
+        "bounty_reward_max": null,
+        "bounty_reward_min": null,
+        "country": "SG",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "status": "V",
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "type": "vdp-in-app",
+        "vdp": true
+      }
+    },
     "grw-trading-fze-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
