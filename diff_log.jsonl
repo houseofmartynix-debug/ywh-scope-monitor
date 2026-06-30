@@ -28,3 +28,4 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "contentsquare-bug-bounty-program", "title": "Contentsquare Bug Bounty Program", "ts": 1782762626}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "govtech-vulnerability-disclosure-programme-policy", "title": "GovTech - Vulnerability Disclosure Programme", "ts": 1782771026}
 {"event": {"bounty_reward_max": null, "bounty_reward_min": null, "kind": "program_new", "type": "vdp-in-app"}, "sent": true, "slug": "govtech-vulnerability-disclosure-programme-policy", "title": "GovTech - Vulnerability Disclosure Programme", "ts": 1782784837}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "govtech-vulnerability-disclosure-programme-policy", "title": "GovTech - Vulnerability Disclosure Programme", "ts": 1782857425}
