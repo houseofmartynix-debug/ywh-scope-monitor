@@ -633,9 +633,14 @@
             "asset_value": "HIGH",
             "scope": "m.dana.id",
             "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "mgs.dana.id",
+            "type": "web-application"
           }
         ],
-        "scopes_count": 3
+        "scopes_count": 4
       },
       "list": {
         "activity_area": "Finance/Assurance",
@@ -647,7 +652,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 3,
+        "scopes_count": 4,
         "secured": false,
         "slug": "dana-bug-bounty-program",
         "status": "V",
