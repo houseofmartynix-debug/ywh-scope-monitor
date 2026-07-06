@@ -4471,11 +4471,6 @@
             "type": "web-application"
           },
           {
-            "asset_value": "MEDIUM",
-            "scope": "hosting.ownit.nu",
-            "type": "web-application"
-          },
-          {
             "asset_value": "HIGH",
             "scope": "ownit.se",
             "type": "web-application"
@@ -4488,11 +4483,6 @@
           {
             "asset_value": "HIGH",
             "scope": "vimla.se",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "webmail.ownit.nu",
             "type": "web-application"
           },
           {
@@ -4541,7 +4531,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 27
+        "scopes_count": 25
       },
       "list": {
         "activity_area": "Media & Entertainment",
@@ -4553,7 +4543,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 27,
+        "scopes_count": 25,
         "secured": false,
         "slug": "telenor-sweden-public-bug-bounty-program",
         "status": "V",
