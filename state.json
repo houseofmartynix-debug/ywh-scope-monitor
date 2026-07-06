@@ -4400,71 +4400,160 @@
           "Any domain that looks like it's owned by a third party or customer due to customer's privacy",
           "Mobile services and devices provided by Telenor Sweden and subsidiaries not reachable from Internet",
           "Other business units of the Telenor Group - including *.telenor.com",
-          "Telenor ID",
           "faq.vimla.se",
           "stage-vimla-se.vimla.io",
           "tc.ownit.se"
         ],
         "scopes": [
           {
+            "asset_value": "HIGH",
+            "scope": "*.api-app.telenor.se",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.api.vimla.se",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.apis.telenor.se",
+            "type": "api"
+          },
+          {
             "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.vimlaapp&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/se/app/vimla/id1233271881  https://play.google.com/store/apps/details?id=com.vimlaapp&hl=en",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.foretagsportalen.telenor.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.mitt.vimla.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.mittforetag.telenor.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.play.ownit.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.profile.telenor.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.signin.telenor.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.stream.telenor.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "*.tv.telenor.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "hosting.ownit.nu",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "ownit.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "telenor.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "vimla.se",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "webmail.ownit.nu",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
             "scope": "*.bredbandsbolaget.se",
             "type": "wildcard"
           },
           {
-            "asset_value": "MEDIUM",
+            "asset_value": "LOW",
             "scope": "*.europolitan.se",
             "type": "wildcard"
           },
           {
-            "asset_value": "LOW",
+            "asset_value": "MEDIUM",
             "scope": "*.inpli.se",
             "type": "wildcard"
           },
           {
-            "asset_value": "MEDIUM",
+            "asset_value": "LOW",
             "scope": "*.ownit.se",
             "type": "wildcard"
           },
           {
-            "asset_value": "MEDIUM",
+            "asset_value": "LOW",
             "scope": "*.telenor.se",
             "type": "wildcard"
           },
           {
-            "asset_value": "LOW",
+            "asset_value": "MEDIUM",
             "scope": "*.telenorinpli.se",
             "type": "wildcard"
           },
           {
-            "asset_value": "MEDIUM",
+            "asset_value": "LOW",
             "scope": "*.vimla.io",
             "type": "wildcard"
           },
           {
-            "asset_value": "MEDIUM",
+            "asset_value": "LOW",
             "scope": "*.vimla.se",
             "type": "wildcard"
           },
           {
-            "asset_value": "MEDIUM",
+            "asset_value": "LOW",
             "scope": "*.vimla.work",
             "type": "wildcard"
           }
         ],
-        "scopes_count": 9
+        "scopes_count": 27
       },
       "list": {
         "activity_area": "Media & Entertainment",
         "archived": false,
         "bounty": true,
-        "bounty_reward_max": 5000,
+        "bounty_reward_max": 6000,
         "bounty_reward_min": 50,
         "country": "SE",
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 9,
+        "scopes_count": 27,
         "secured": false,
         "slug": "telenor-sweden-public-bug-bounty-program",
         "status": "V",
