@@ -4291,9 +4291,14 @@
             "asset_value": "HIGH",
             "scope": "System Specification",
             "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://pit.evoting.ch",
+            "type": "web-application"
           }
         ],
-        "scopes_count": 4
+        "scopes_count": 5
       },
       "list": {
         "activity_area": "Transportation",
@@ -4305,7 +4310,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 4,
+        "scopes_count": 5,
         "secured": false,
         "slug": "swiss-post-evoting",
         "status": "V",

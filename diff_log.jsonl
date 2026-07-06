@@ -61,3 +61,4 @@
 {"event": {"kind": "oos_removed", "rule": "Telenor ID"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1783326681}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "hosting.ownit.nu", "type": "web-application"}}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1783328455}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "webmail.ownit.nu", "type": "web-application"}}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1783328456}
+{"event": {"kind": "scope_added", "scope": {"asset_value": "HIGH", "scope": "https://pit.evoting.ch", "type": "web-application"}}, "sent": true, "slug": "swiss-post-evoting", "title": "Swiss Post - E-Voting", "ts": 1783332647}
