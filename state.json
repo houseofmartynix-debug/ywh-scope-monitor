@@ -4658,11 +4658,6 @@
         "scopes": [
           {
             "asset_value": "CRITICAL",
-            "scope": "ru-yandex-api-app.vfsevisa.com",
-            "type": "api"
-          },
-          {
-            "asset_value": "CRITICAL",
             "scope": "*.vfsglobal.(com|co.uk|ca)",
             "type": "web-application"
           },
@@ -4683,42 +4678,12 @@
           },
           {
             "asset_value": "CRITICAL",
-            "scope": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://cicforms.mioot.com/forms/PS/",
+            "scope": "https://cicforms.mioot.com/",
             "type": "web-application"
           },
           {
             "asset_value": "CRITICAL",
             "scope": "https://equatorialguinea-evisa.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
             "type": "web-application"
           },
           {
@@ -4733,22 +4698,7 @@
           },
           {
             "asset_value": "CRITICAL",
-            "scope": "https://online.mustaqel.qa/qat/en/login",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
             "scope": "https://online.srilankaevisa.lk/lka/en/login",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
             "type": "web-application"
           },
           {
@@ -4763,11 +4713,6 @@
           },
           {
             "asset_value": "CRITICAL",
-            "scope": "https://vfs-ai-tiff-image-api-hchkdabjdsdya6ea.switzerlandnorth-01.azurewebsites.net/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
             "scope": "https://vfs.mioot.com/",
             "type": "web-application"
           },
@@ -4778,32 +4723,12 @@
           },
           {
             "asset_value": "CRITICAL",
-            "scope": "https://vfsforms.mioot.com/forms/EIAT/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://vfsforms.mioot.com/forms/IFAL/",
+            "scope": "https://vfsforms.mioot.com/",
             "type": "web-application"
           },
           {
             "asset_value": "CRITICAL",
             "scope": "https://www.vfsglobalcustomerexperience.com/CustomerFeedback/GeneralFeedback/Index",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://www.vfsvisaservice.com/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
             "type": "web-application"
           },
           {
@@ -4818,22 +4743,7 @@
           },
           {
             "asset_value": "CRITICAL",
-            "scope": "svtselb.tasheer.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.dvpc.net",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
             "scope": "www.vfsvisaonline.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.vfsvisaservicesrussia.com",
             "type": "web-application"
           },
           {
@@ -4858,11 +4768,6 @@
           },
           {
             "asset_value": "CRITICAL",
-            "scope": "*.vascoworldwide.net",
-            "type": "wildcard"
-          },
-          {
-            "asset_value": "CRITICAL",
             "scope": "*.vfsai.com",
             "type": "wildcard"
           },
@@ -4877,7 +4782,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 44
+        "scopes_count": 25
       },
       "list": {
         "activity_area": "Other",
@@ -4889,7 +4794,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 44,
+        "scopes_count": 25,
         "secured": false,
         "slug": "vfs-global-bug-bounty-program",
         "status": "V",
