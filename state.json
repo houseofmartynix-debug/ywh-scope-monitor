@@ -3194,54 +3194,6 @@
         "vdp": false
       }
     },
-    "onedoc-sa-bug-bounty-program": {
-      "detail": {
-        "out_of_scope": [
-          "All domains or subdomains not listed in the above list of 'Scopes'"
-        ],
-        "scopes": [
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://api.onedoc.ch",
-            "type": "api"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://pro.onedoc.ch",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://telehealth.onedoc.ch",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://www.onedoc.ch",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 4
-      },
-      "list": {
-        "activity_area": "HealthTech",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 5000,
-        "bounty_reward_min": 50,
-        "country": "CH",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 4,
-        "secured": false,
-        "slug": "onedoc-sa-bug-bounty-program",
-        "status": "V",
-        "title": "OneDoc",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "ooredoo-qpsc-bug-bounty-program": {
       "detail": {
         "out_of_scope": [

@@ -85,3 +85,4 @@
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "CRITICAL", "scope": "www.dvpc.net", "type": "web-application"}}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1784268060}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "CRITICAL", "scope": "www.vfsvisaservicesrussia.com", "type": "web-application"}}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1784268061}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "CRITICAL", "scope": "*.vascoworldwide.net", "type": "wildcard"}}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1784268062}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "onedoc-sa-bug-bounty-program", "title": "OneDoc", "ts": 1784646916}
