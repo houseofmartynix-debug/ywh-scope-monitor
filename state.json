@@ -2208,10 +2208,11 @@
           "User email verification",
           "VPS instances from our customers, like *.vps.infomaniak.com",
           "We do not manage Open Stack dashboard which is therefore out of scope",
-          "Websocket IPS-public credentials. Public identifiers that do not allow access to information outside the scope of the user's profile.",
+          "Websocket IPS-public credentials (MQTT, info-mq, IPS_RABBIT, ips-public). Public identifiers that do not allow access to information outside the scope of the user's profile.",
           "acronis.infomaniak.com",
           "https://api.pub1.infomaniak.cloud",
-          "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains"
+          "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains",
+          "partner program : pages about finding partner and sending offer / All routes ending with /partners/tender"
         ],
         "scopes": [
           {
@@ -2248,6 +2249,11 @@
             "asset_value": "HIGH",
             "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
             "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "*.infomaniak.com",
+            "type": "web-application"
           },
           {
             "asset_value": "HIGH",
@@ -2406,6 +2412,11 @@
           },
           {
             "asset_value": "HIGH",
+            "scope": "swisstransfer.infomaniak.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
             "scope": "sync.infomaniak.com",
             "type": "web-application"
           },
@@ -2430,7 +2441,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 43
+        "scopes_count": 45
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -2442,7 +2453,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 43,
+        "scopes_count": 45,
         "secured": false,
         "slug": "infomaniak-bug-bounty-program",
         "status": "V",
