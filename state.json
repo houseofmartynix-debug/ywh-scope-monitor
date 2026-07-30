@@ -2818,50 +2818,6 @@
         "vdp": false
       }
     },
-    "memento-bug-bounty-program": {
-      "detail": {
-        "out_of_scope": [
-          "All domains or subdomains not listed in the above list of 'Scopes'.",
-          "Smart contracts."
-        ],
-        "scopes": [
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://api.dextf.com/dcd/",
-            "type": "api"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://api.dextf.com/dd/",
-            "type": "api"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://bug-bounty-dfm.mementoblockchain.com/",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 3
-      },
-      "list": {
-        "activity_area": "Finance/Assurance",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 4000,
-        "bounty_reward_min": 0,
-        "country": "SG",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 3,
-        "secured": false,
-        "slug": "memento-bug-bounty-program",
-        "status": "V",
-        "title": "Memento - Public Bug Bounty Program",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "mon-espace-sante-mes": {
       "detail": {
         "out_of_scope": [
