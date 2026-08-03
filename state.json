@@ -1606,13 +1606,33 @@
           },
           {
             "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/sg/app/gojek-driver/id1573529788",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
             "scope": "https://play.google.com/store/apps/details?id=com.gojek.app",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.gojek.partner",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.gojek.resto",
             "type": "mobile-application-android"
           },
           {
             "asset_value": "CRITICAL",
             "scope": "https://apps.apple.com/id/app/gojek/id944875099",
             "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "gocorp.gojek.com",
+            "type": "web-application"
           },
           {
             "asset_value": "HIGH",
@@ -1655,19 +1675,19 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 12
+        "scopes_count": 16
       },
       "list": {
         "activity_area": "Tech - Other",
         "archived": false,
         "bounty": true,
-        "bounty_reward_max": 5000,
+        "bounty_reward_max": 3500,
         "bounty_reward_min": 5,
         "country": "ID",
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 12,
+        "scopes_count": 16,
         "secured": false,
         "slug": "gojek-bug-bounty-program",
         "status": "V",
@@ -1760,7 +1780,7 @@
         "activity_area": "Tech - Other",
         "archived": false,
         "bounty": true,
-        "bounty_reward_max": 7000,
+        "bounty_reward_max": 5000,
         "bounty_reward_min": 5,
         "country": "ID",
         "demo": false,
