@@ -4536,24 +4536,29 @@
         ],
         "scopes": [
           {
-            "asset_value": "LOW",
-            "scope": "In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+            "asset_value": "CRITICAL",
+            "scope": "Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+            "type": "other"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Non Core Assets In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
             "type": "other"
           }
         ],
-        "scopes_count": 1
+        "scopes_count": 2
       },
       "list": {
         "activity_area": "CyberSec",
         "archived": false,
         "bounty": true,
-        "bounty_reward_max": 6425,
+        "bounty_reward_max": 5000,
         "bounty_reward_min": 8,
         "country": "CN",
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 1,
+        "scopes_count": 2,
         "secured": false,
         "slug": "tencent-bug-bounty-program",
         "status": "V",
