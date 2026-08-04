@@ -2482,6 +2482,53 @@
         "vdp": false
       }
     },
+    "keycloak-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "Any asset that is not explicitly included in our program's scope",
+          "Any depreciated versions and other versions than the current stable/official version are considered out of scope except if specified otherwise in the program\u2019s rules",
+          "Any local implementation of the project/implementation belonging to third parties",
+          "Any third parties\u2019 or Community\u2019s assets that are not explicitly included (e.g. forks, libraries or packages)",
+          "Experimental features"
+        ],
+        "scopes": [
+          {
+            "asset_value": "MEDIUM",
+            "scope": "JavaScript Client Adapter",
+            "type": "open-source"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Keycloak Operator",
+            "type": "open-source"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Keycloak Server",
+            "type": "open-source"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 100,
+        "country": "BE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "keycloak-bug-bounty-program",
+        "status": "V",
+        "title": "Keycloak",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "komoju-public-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
