@@ -844,6 +844,119 @@
         "vdp": false
       }
     },
+    "deezer-bug-bounty-program-2019": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "cdn-content.deezer.com",
+          "cdn-files.deezer.com",
+          "deezer-blog.com",
+          "deezer-brandsolutions.com",
+          "deezercommunity.com",
+          "deezerjobs.com",
+          "desktop apps (electron)",
+          "developers.deezer.com",
+          "partners.deezer.com",
+          "support.deezer.com"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "api.deezer.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "pipe.deezer.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "wellbeing.deezer.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "ws.deezer.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=com.deezer.zen",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://play.google.com/store/apps/details?id=deezer.android.app",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://apps.apple.com/be/app/zen-by-deezer-m%C3%A9ditation/id1597326355",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://apps.apple.com/fr/app/deezer-musique-podcast/id292738169",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "wellbeing.dzcdn.net",
+            "type": "other"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "account.deezer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "connect.deezer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "payment.deezer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "upload.deezer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "www.deezer.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "zen.deezer.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 15
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2500,
+        "bounty_reward_min": 0,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 15,
+        "secured": false,
+        "slug": "deezer-bug-bounty-program-2019",
+        "status": "V",
+        "title": "Deezer Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "digital-flanders-vulnerability-disclosure-program": {
       "detail": {
         "out_of_scope": [
