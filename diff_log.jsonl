@@ -106,3 +106,4 @@
 {"event": {"kind": "scope_added", "scope": {"asset_value": "HIGH", "scope": "gocorp.gojek.com", "type": "web-application"}}, "sent": true, "slug": "gojek-bug-bounty-program", "title": "GOJEK - Public Bounty Program", "ts": 1785744627}
 {"event": {"bounty_reward_max": 5000, "bounty_reward_min": 100, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "keycloak-bug-bounty-program", "title": "Keycloak", "ts": 1785833433}
 {"event": {"bounty_reward_max": 2500, "bounty_reward_min": 0, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "deezer-bug-bounty-program-2019", "title": "Deezer Bug Bounty Program", "ts": 1785950427}
+{"event": {"bounty_reward_max": 3000, "bounty_reward_min": 50, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "toom-baumarkt-gmbh-bug-bounty-program", "title": "toom Baumarkt GmbH - Webshop", "ts": 1786014629}

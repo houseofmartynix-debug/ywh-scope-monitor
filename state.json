@@ -4786,6 +4786,44 @@
         "vdp": false
       }
     },
+    "toom-baumarkt-gmbh-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'."
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "https://api.toom.de",
+            "type": "api"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "https://toom.de",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Retail",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "DE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "toom-baumarkt-gmbh-bug-bounty-program",
+        "status": "V",
+        "title": "toom Baumarkt GmbH - Webshop",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "vfs-global-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
