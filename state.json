@@ -1317,6 +1317,11 @@
           },
           {
             "asset_value": "HIGH",
+            "scope": "https://github.com/expressvpn/wolfssl-rs",
+            "type": "other"
+          },
+          {
+            "asset_value": "HIGH",
             "scope": "*.expressvpn.com",
             "type": "web-application"
           },
@@ -1391,7 +1396,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 30
+        "scopes_count": 31
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -1403,7 +1408,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 30,
+        "scopes_count": 31,
         "secured": false,
         "slug": "expressvpn-bug-bounty-program",
         "status": "V",
