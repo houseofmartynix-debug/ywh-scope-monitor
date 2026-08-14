@@ -4066,49 +4066,6 @@
         "vdp": false
       }
     },
-    "salt-mobile-sa-bug-bounty-program": {
-      "detail": {
-        "out_of_scope": [
-          "All domains or subdomains not listed in the above list of 'Scopes'"
-        ],
-        "scopes": [
-          {
-            "asset_value": "LOW",
-            "scope": "https://eshop.salt.ch",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "LOW",
-            "scope": "https://login.salt.ch",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "LOW",
-            "scope": "https://my.salt.ch",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 3
-      },
-      "list": {
-        "activity_area": "Tech - Other",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 2000,
-        "bounty_reward_min": 50,
-        "country": "CH",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 3,
-        "secured": false,
-        "slug": "salt-mobile-sa-bug-bounty-program",
-        "status": "V",
-        "title": "Salt Mobile SA - Bug Bounty Program",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "sante-publique-france-bugbounty-public-program": {
       "detail": {
         "out_of_scope": [
