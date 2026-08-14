@@ -2554,6 +2554,11 @@
             "type": "web-application"
           },
           {
+            "asset_value": "MEDIUM",
+            "scope": "manager.infomaniak.com/*proxy*",
+            "type": "web-application"
+          },
+          {
             "asset_value": "CRITICAL",
             "scope": "manager.infomaniak.com/v3/*",
             "type": "web-application"
@@ -2619,7 +2624,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 45
+        "scopes_count": 46
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -2631,7 +2636,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 45,
+        "scopes_count": 46,
         "secured": false,
         "slug": "infomaniak-bug-bounty-program",
         "status": "V",

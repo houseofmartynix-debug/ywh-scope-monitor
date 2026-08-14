@@ -111,3 +111,4 @@
 {"event": {"kind": "scope_added", "scope": {"asset_value": "HIGH", "scope": "https://github.com/expressvpn/wolfssl-rs", "type": "other"}}, "sent": true, "slug": "expressvpn-bug-bounty-program", "title": "ExpressVPN - Bug Bounty Program", "ts": 1786525228}
 {"event": {"bounty_reward_max": 10000, "bounty_reward_min": 100, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "bind-bug-bounty-program", "title": "BIND 9 Bug Bounty Program", "ts": 1786528831}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "salt-mobile-sa-bug-bounty-program", "title": "Salt Mobile SA - Bug Bounty Program", "ts": 1786693218}
+{"event": {"kind": "scope_added", "scope": {"asset_value": "MEDIUM", "scope": "manager.infomaniak.com/*proxy*", "type": "web-application"}}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1786725026}
