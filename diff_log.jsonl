@@ -113,3 +113,4 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "salt-mobile-sa-bug-bounty-program", "title": "Salt Mobile SA - Bug Bounty Program", "ts": 1786693218}
 {"event": {"kind": "scope_added", "scope": {"asset_value": "MEDIUM", "scope": "manager.infomaniak.com/*proxy*", "type": "web-application"}}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1786725026}
 {"event": {"kind": "scope_added", "scope": {"asset_value": "CRITICAL", "scope": "https://www.visaforkorea-sl.com/", "type": "web-application"}}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1786935020}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "keycloak-bug-bounty-program", "title": "Keycloak", "ts": 1786996219}
