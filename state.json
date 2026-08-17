@@ -4930,6 +4930,11 @@
           },
           {
             "asset_value": "CRITICAL",
+            "scope": "https://www.visaforkorea-sl.com/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "CRITICAL",
             "scope": "phlonline.vfsevisa.cn",
             "type": "web-application"
           },
@@ -4979,7 +4984,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 25
+        "scopes_count": 26
       },
       "list": {
         "activity_area": "Other",
@@ -4991,7 +4996,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 25,
+        "scopes_count": 26,
         "secured": false,
         "slug": "vfs-global-bug-bounty-program",
         "status": "V",
