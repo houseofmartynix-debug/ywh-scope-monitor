@@ -4578,11 +4578,6 @@
             "type": "web-application"
           },
           {
-            "asset_value": "MEDIUM",
-            "scope": "*.tv.telenor.se",
-            "type": "web-application"
-          },
-          {
             "asset_value": "HIGH",
             "scope": "ownit.se",
             "type": "web-application"
@@ -4643,7 +4638,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 25
+        "scopes_count": 24
       },
       "list": {
         "activity_area": "Media & Entertainment",
@@ -4655,7 +4650,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 25,
+        "scopes_count": 24,
         "secured": false,
         "slug": "telenor-sweden-public-bug-bounty-program",
         "status": "V",

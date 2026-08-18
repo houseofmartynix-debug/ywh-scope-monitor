@@ -114,3 +114,4 @@
 {"event": {"kind": "scope_added", "scope": {"asset_value": "MEDIUM", "scope": "manager.infomaniak.com/*proxy*", "type": "web-application"}}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1786725026}
 {"event": {"kind": "scope_added", "scope": {"asset_value": "CRITICAL", "scope": "https://www.visaforkorea-sl.com/", "type": "web-application"}}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1786935020}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "keycloak-bug-bounty-program", "title": "Keycloak", "ts": 1786996219}
+{"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "*.tv.telenor.se", "type": "web-application"}}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1787053822}
