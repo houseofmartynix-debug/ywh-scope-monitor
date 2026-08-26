@@ -4139,59 +4139,6 @@
         "vdp": false
       }
     },
-    "superbank-public-bug-bounty-program": {
-      "detail": {
-        "out_of_scope": [
-          "Applications, URLs, or data that are not listed on this page are considered out of scope."
-        ],
-        "scopes": [
-          {
-            "asset_value": "HIGH",
-            "scope": "api.super-id.net",
-            "type": "api"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://play.google.com/store/apps/details?id=id.co.bankfama.android&hl=en",
-            "type": "mobile-application-android"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "https://apps.apple.com/id/app/superbank/id6444720285",
-            "type": "mobile-application-ios"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "ecosystem-experience.super-id.net",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "superbank.id",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 5
-      },
-      "list": {
-        "activity_area": "Finance/Assurance",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 2000,
-        "bounty_reward_min": 0,
-        "country": "ID",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 5,
-        "secured": false,
-        "slug": "superbank-public-bug-bounty-program",
-        "status": "V",
-        "title": "Superbank - Public Bug Bounty Program",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "swapcard": {
       "detail": {
         "out_of_scope": [
