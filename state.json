@@ -391,11 +391,6 @@
           },
           {
             "asset_value": "LOW",
-            "scope": "https://booking.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "LOW",
             "scope": "https://daily.blablacar.fr",
             "type": "web-application"
           },
@@ -410,7 +405,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 12
+        "scopes_count": 11
       },
       "list": {
         "activity_area": "CyberSec",
@@ -422,7 +417,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 12,
+        "scopes_count": 11,
         "secured": false,
         "slug": "bug-bounty-program-blablacar",
         "status": "V",
