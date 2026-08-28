@@ -1233,6 +1233,42 @@
         "vdp": false
       }
     },
+    "dovecot": {
+      "detail": {
+        "out_of_scope": [
+          "\"Scopes\" in this program refer to the binary packages and source-code provided there, the systems providing those artefacts are out of scope",
+          "All content which is not listed as \"Scopes\", especially any production system operated by customers",
+          "Bugs that require filesystem level access to modify content to cause data corruption or path traversal issues as out of scope.",
+          "Everything that is not directly related to the application or source-code in scope (e.g. GitHub, domain settings)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "LOW",
+            "scope": "Dovecot IMAP Server and Pigeonhole SIEVE (see \"Software packages\" and \"Source code\")",
+            "type": "open-source"
+          }
+        ],
+        "scopes_count": 1
+      },
+      "list": {
+        "activity_area": "Tech - Other",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 5000,
+        "bounty_reward_min": 100,
+        "country": "DE",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 1,
+        "secured": false,
+        "slug": "dovecot",
+        "status": "V",
+        "title": "Dovecot",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "expressvpn-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
