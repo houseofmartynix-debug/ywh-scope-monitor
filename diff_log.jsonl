@@ -121,3 +121,4 @@
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "LOW", "scope": "https://booking.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|com.br|pt|ro|ru|com|tr|com.ua)", "type": "web-application"}}, "sent": true, "slug": "bug-bounty-program-blablacar", "title": "Bug Bounty Program - BlaBlaCar", "ts": 1787847620}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "bind-bug-bounty-program", "title": "BIND 9 Bug Bounty Program", "ts": 1787854819}
 {"event": {"bounty_reward_max": 5000, "bounty_reward_min": 100, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "dovecot", "title": "Dovecot", "ts": 1787913621}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "digital-flanders-vulnerability-disclosure-program", "title": "Digital Flanders Vulnerability Disclosure Program", "ts": 1788109225}
