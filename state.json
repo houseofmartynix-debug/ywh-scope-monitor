@@ -3452,11 +3452,6 @@
           },
           {
             "asset_value": "LOW",
-            "scope": "https://icu.eu-west-2.outscale.com",
-            "type": "api"
-          },
-          {
-            "asset_value": "LOW",
             "scope": "https://lbu.eu-west-2.outscale.com",
             "type": "api"
           },
@@ -3476,7 +3471,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 8
+        "scopes_count": 7
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -3488,7 +3483,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 8,
+        "scopes_count": 7,
         "secured": false,
         "slug": "outscale",
         "status": "V",
