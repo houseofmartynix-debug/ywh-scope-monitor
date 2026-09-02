@@ -571,40 +571,6 @@
         "vdp": false
       }
     },
-    "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity": {
-      "detail": {
-        "out_of_scope": [
-          "Anything that is not explicitely listed in scope section",
-          "https://www.cybermalveillance.gouv.fr"
-        ],
-        "scopes": [
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://pprd.cybermalveillance.gouv.fr",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 1
-      },
-      "list": {
-        "activity_area": "Tech - Other",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 2000,
-        "bounty_reward_min": 50,
-        "country": "FR",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 1,
-        "secured": false,
-        "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
-        "status": "V",
-        "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "dana-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
