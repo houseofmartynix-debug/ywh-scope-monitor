@@ -124,3 +124,4 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "digital-flanders-vulnerability-disclosure-program", "title": "Digital Flanders Vulnerability Disclosure Program", "ts": 1788109225}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "LOW", "scope": "https://icu.eu-west-2.outscale.com", "type": "api"}}, "sent": true, "slug": "outscale", "title": "3DS OUTSCALE", "ts": 1788198622}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity", "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity", "ts": 1788351023}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "dovecot", "title": "Dovecot", "ts": 1788421221}
