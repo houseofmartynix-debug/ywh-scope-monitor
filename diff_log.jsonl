@@ -127,3 +127,6 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "dovecot", "title": "Dovecot", "ts": 1788421221}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "maya-public-bug-bounty-program", "title": "Maya - Public Bug Bounty Program", "ts": 1788483021}
 {"event": {"bounty_reward_max": 5000, "bounty_reward_min": 50, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "maya-public-bug-bounty-program", "title": "Maya - Public Bug Bounty Program", "ts": 1788487821}
+{"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "https://play.google.com/store/apps/details?id=ch.post.it.pcc&hl=en", "type": "mobile-application-android"}}, "sent": true, "slug": "swiss-post", "title": "Swiss Post", "ts": 1788513033}
+{"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "https://itunes.apple.com/ch/app/postcard-creator/id820354055?mt=8", "type": "mobile-application-ios"}}, "sent": true, "slug": "swiss-post", "title": "Swiss Post", "ts": 1788513034}
+{"event": {"kind": "oos_added", "rule": "Any services related to PostCardCreator (for example https://service.post.ch/pccweb, mobile apps and https://pccweb.api.post.ch)"}, "sent": true, "slug": "swiss-post", "title": "Swiss Post", "ts": 1788513035}

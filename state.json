@@ -4095,17 +4095,13 @@
       "detail": {
         "out_of_scope": [
           "Any services related to Incamail (for example https://incamail-dev.post.ch (194.41.248.224) and https://incamail-test.post.ch (194.41.248.58))",
+          "Any services related to PostCardCreator (for example https://service.post.ch/pccweb, mobile apps and https://pccweb.api.post.ch)",
           "Anything that has not been described as in scope in the previous section is automatically out of scope.",
           "Attacks on administrative and surrounding systems that are not used for the in-scope services are not permitted (this includes DNS, NTP, routers, systems of the ISP, etc.).",
           "Please note that some of the applications may contain links or redirect you away from the URIs described in the scope section. This means you are leaving the scope if you follow these links / redirects.",
           "The alternative login (https://login.swissid.ch) is out of scope. It also leads to the in-scope service, (https://account.post.ch) but we have designated it as out of scope."
         ],
         "scopes": [
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://play.google.com/store/apps/details?id=ch.post.it.pcc&hl=en",
-            "type": "mobile-application-android"
-          },
           {
             "asset_value": "HIGH",
             "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
@@ -4114,11 +4110,6 @@
           {
             "asset_value": "HIGH",
             "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
-            "type": "mobile-application-ios"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://itunes.apple.com/ch/app/postcard-creator/id820354055?mt=8",
             "type": "mobile-application-ios"
           },
           {
@@ -4157,7 +4148,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 11
+        "scopes_count": 9
       },
       "list": {
         "activity_area": "Transportation",
@@ -4169,7 +4160,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 11,
+        "scopes_count": 9,
         "secured": false,
         "slug": "swiss-post",
         "status": "V",
