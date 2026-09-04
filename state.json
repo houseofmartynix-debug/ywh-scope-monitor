@@ -3821,62 +3821,6 @@
         "vdp": false
       }
     },
-    "qwant": {
-      "detail": {
-        "out_of_scope": [],
-        "scopes": [
-          {
-            "asset_value": "CRITICAL",
-            "scope": "api.qwant.com",
-            "type": "api"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "qwantjunior.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "s.qwant.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "s1.qwant.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "s2.qwant.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.qwant.com",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 6
-      },
-      "list": {
-        "activity_area": "CyberSec",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 5000,
-        "bounty_reward_min": 100,
-        "country": "FR",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 6,
-        "secured": false,
-        "slug": "qwant",
-        "status": "V",
-        "title": "Qwant",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "sante-publique-france-bugbounty-public-program": {
       "detail": {
         "out_of_scope": [
