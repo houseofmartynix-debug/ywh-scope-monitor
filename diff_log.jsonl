@@ -132,3 +132,4 @@
 {"event": {"kind": "oos_added", "rule": "Any services related to PostCardCreator (for example https://service.post.ch/pccweb, mobile apps and https://pccweb.api.post.ch)"}, "sent": true, "slug": "swiss-post", "title": "Swiss Post", "ts": 1788513035}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "qwant", "title": "Qwant", "ts": 1788530434}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "deezer-bug-bounty-program-2019", "title": "Deezer Bug Bounty Program", "ts": 1788537020}
+{"event": {"bounty_reward_max": 50000, "bounty_reward_min": 0, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "kiteworks-public-bug-bounty-program-1", "title": "Kiteworks Public Bug Bounty Program", "ts": 1789043430}

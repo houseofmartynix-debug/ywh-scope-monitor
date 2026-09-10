@@ -2390,6 +2390,94 @@
         "vdp": false
       }
     },
+    "kiteworks-public-bug-bounty-program-1": {
+      "detail": {
+        "out_of_scope": [
+          "Testing is only authorized on the targets listed as in scope. Any domain/property of Kiteworks not listed in the targets section is out of scope. This includes any/all subdomains not listed above. If you happen to identify a security vulnerability on a target that is not in scope, but it demonstrably belongs to Kiteworks, you can report it here. However, be aware that it is ineligible for rewards or points-based compensation."
+        ],
+        "scopes": [
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "Kiteworks Desktop Client 2.0",
+            "type": "application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "Kiteworks for Desktop",
+            "type": "application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "Kiteworks for Office Desktop",
+            "type": "application"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "Kiteworks for Outlook Desktop",
+            "type": "application"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "Crown Jewel Heist",
+            "type": "challenge"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "Kiteworks Android App",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "VERY_LOW",
+            "scope": "Kiteworks iOS App",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "API Playground",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Email Protection Gateway (EPG)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "Kiteworks Core",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "Managed File Transfer (MFT)",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
+            "scope": "Secure Data Forms (SDF, aka Advanced Forms)",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 12
+      },
+      "list": {
+        "activity_area": "CyberSec",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 50000,
+        "bounty_reward_min": 0,
+        "country": "US",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 12,
+        "secured": false,
+        "slug": "kiteworks-public-bug-bounty-program-1",
+        "status": "V",
+        "title": "Kiteworks Public Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "komoju-public-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
