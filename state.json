@@ -4820,11 +4820,6 @@
           },
           {
             "asset_value": "HIGH",
-            "scope": "https://parcelhubeurope.com",
-            "type": "other"
-          },
-          {
-            "asset_value": "HIGH",
             "scope": "https://*.vidaxl.io",
             "type": "web-application"
           },
@@ -4834,7 +4829,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 5
+        "scopes_count": 4
       },
       "list": {
         "activity_area": "Retail",
@@ -4846,7 +4841,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 5,
+        "scopes_count": 4,
         "secured": false,
         "slug": "vidaxl-services-open-bug-bounty-program",
         "status": "V",
