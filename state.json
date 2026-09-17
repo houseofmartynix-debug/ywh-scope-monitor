@@ -2141,7 +2141,9 @@
           "Assets not listed in the in scope section are to be considered as out of the scope of this program and won't be eligible for reward",
           "Database service instances from customers, like *.dbaas.infomaniak.cloud",
           "FTP credentials from our customers, like *.ftp.infomaniak.com",
+          "Information returned by /get-tickets-infos (including organizer, event_name, event_date, command_date, and masked email) is out of scope",
           "Jelastic subdomains : *.jcloud.ik-server.com, *.jpc.infomaniak.com, *.jpe.infomaniak.com",
+          "Moving or copying calendar events / contacts between containers by read-write collaborators (intended behavior)",
           "MySQL credentials from our customers, like *.myd.infomaniak.com",
           "S3 credentials from our customers, like s3.pub*.infomaniak.cloud",
           "This domain https://drive.infomaniak.com/app/office/:folder:/:file: is out of scope. This is only office application, an external app to open MS office documents.",
@@ -2150,9 +2152,9 @@
           "We do not manage Open Stack dashboard which is therefore out of scope",
           "Websocket IPS-public credentials (MQTT, info-mq, IPS_RABBIT, ips-public). Public identifiers that do not allow access to information outside the scope of the user's profile.",
           "acronis.infomaniak.com",
-          "https://api.pub1.infomaniak.cloud",
           "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains",
-          "partner program : pages about finding partner and sending offer / All routes ending with /partners/tender"
+          "partner program : pages about finding partner and sending offer / All routes ending with /partners/tender",
+          "storage*.infomaniak.com/newsletter/thumbnails/*"
         ],
         "scopes": [
           {
@@ -2167,8 +2169,13 @@
           },
           {
             "asset_value": "HIGH",
-            "scope": "ai-tools.infomaniak.com",
-            "type": "mobile-application"
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.auth",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.chat",
+            "type": "mobile-application-android"
           },
           {
             "asset_value": "HIGH",
@@ -2176,8 +2183,23 @@
             "type": "mobile-application-android"
           },
           {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.euria",
+            "type": "mobile-application-android"
+          },
+          {
             "asset_value": "HIGH",
-            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.swisstransfer",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.sync",
             "type": "mobile-application-android"
           },
           {
@@ -2187,11 +2209,31 @@
           },
           {
             "asset_value": "HIGH",
-            "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+            "scope": "https://apps.apple.com/fr/app/infomaniak-authenticator/id1478424817",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/fr/app/infomaniak-euria/id6754152858",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/fr/app/infomaniak-kchat/id6443845553",
             "type": "mobile-application-ios"
           },
           {
             "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://apps.apple.com/fr/app/infomaniak-swisstransfer/id6737686335",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
             "scope": "*.infomaniak.com",
             "type": "web-application"
           },
@@ -2217,12 +2259,12 @@
           },
           {
             "asset_value": "MEDIUM",
-            "scope": "academy.infomaniak.com",
+            "scope": "api.pub1.infomaniak.cloud",
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
-            "scope": "admin2.infomaniak.com",
+            "asset_value": "MEDIUM",
+            "scope": "api.pub2.infomaniak.cloud",
             "type": "web-application"
           },
           {
@@ -2238,11 +2280,6 @@
           {
             "asset_value": "HIGH",
             "scope": "contacts.infomaniak.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "developer.infomaniak.com",
             "type": "web-application"
           },
           {
@@ -2272,12 +2309,17 @@
           },
           {
             "asset_value": "MEDIUM",
-            "scope": "invitation.infomaniak.com",
+            "scope": "ix2smbdyjt.infomaniak.site",
             "type": "web-application"
           },
           {
             "asset_value": "MEDIUM",
-            "scope": "ix2smbdyjt.infomaniak.site",
+            "scope": "kdrive.infomaniak.com/app/*/preview/*",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "kdrive.infomaniak.com/app/office*/*",
             "type": "web-application"
           },
           {
@@ -2297,6 +2339,11 @@
           },
           {
             "asset_value": "MEDIUM",
+            "scope": "ksuite.infomaniak.com/*/kdrive/*/preview/*",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
             "scope": "l75pvbdyjo.infomaniak.site",
             "type": "web-application"
           },
@@ -2307,27 +2354,12 @@
           },
           {
             "asset_value": "HIGH",
-            "scope": "mail-builder.infomaniak.com/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
             "scope": "mail.infomaniak.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "manager.infomaniak.com/*proxy*",
             "type": "web-application"
           },
           {
             "asset_value": "CRITICAL",
             "scope": "manager.infomaniak.com/v3/*",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "newsletter.infomaniak.com",
             "type": "web-application"
           },
           {
@@ -2341,17 +2373,12 @@
             "type": "web-application"
           },
           {
-            "asset_value": "MEDIUM",
-            "scope": "sms.infomaniak.com",
-            "type": "web-application"
-          },
-          {
             "asset_value": "HIGH",
             "scope": "storage*.infomaniak.com",
             "type": "web-application"
           },
           {
-            "asset_value": "HIGH",
+            "asset_value": "CRITICAL",
             "scope": "swiss-backup*.infomaniak.com",
             "type": "web-application"
           },
@@ -2376,7 +2403,7 @@
             "type": "web-application"
           },
           {
-            "asset_value": "HIGH",
+            "asset_value": "CRITICAL",
             "scope": "www.infomaniak.com",
             "type": "web-application"
           },
@@ -2386,7 +2413,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 46
+        "scopes_count": 51
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -2398,7 +2425,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 46,
+        "scopes_count": 51,
         "secured": false,
         "slug": "infomaniak-bug-bounty-program",
         "status": "V",
