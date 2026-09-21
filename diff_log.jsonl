@@ -172,3 +172,4 @@
 {"event": {"kind": "oos_added", "rule": "Moving or copying calendar events / contacts between containers by read-write collaborators (intended behavior)"}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1789654175}
 {"event": {"kind": "oos_added", "rule": "storage*.infomaniak.com/newsletter/thumbnails/*"}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1789654176}
 {"event": {"kind": "oos_removed", "rule": "https://api.pub1.infomaniak.cloud"}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1789654176}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "dovecot", "title": "Dovecot", "ts": 1789972134}
