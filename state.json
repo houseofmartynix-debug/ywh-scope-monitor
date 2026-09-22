@@ -4160,6 +4160,11 @@
             "type": "other"
           },
           {
+            "asset_value": "MEDIUM",
+            "scope": "Protocol of the Swiss Post Voting System 2.0 (Whitepaper)",
+            "type": "other"
+          },
+          {
             "asset_value": "CRITICAL",
             "scope": "Scenarios with Special Bounties",
             "type": "other"
@@ -4175,7 +4180,7 @@
             "type": "other"
           }
         ],
-        "scopes_count": 4
+        "scopes_count": 5
       },
       "list": {
         "activity_area": "Transportation",
@@ -4187,7 +4192,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 4,
+        "scopes_count": 5,
         "secured": false,
         "slug": "swiss-post-evoting",
         "status": "V",

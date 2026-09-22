@@ -174,3 +174,4 @@
 {"event": {"kind": "oos_removed", "rule": "https://api.pub1.infomaniak.cloud"}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1789654176}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "dovecot", "title": "Dovecot", "ts": 1789972134}
 {"event": {"bounty_reward_max": 8000, "bounty_reward_min": 100, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "powerdns", "title": "PowerDNS", "ts": 1789996471}
+{"event": {"kind": "scope_added", "scope": {"asset_value": "MEDIUM", "scope": "Protocol of the Swiss Post Voting System 2.0 (Whitepaper)", "type": "other"}}, "sent": true, "slug": "swiss-post-evoting", "title": "Swiss Post - E-Voting", "ts": 1790074996}
