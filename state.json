@@ -1,5 +1,5 @@
 {
-  "last_heartbeat_ts": 1790016354,
+  "last_heartbeat_ts": 1790103820,
   "programs": {
     "alasco-gmbh-bug-bounty-program": {
       "detail": {
@@ -197,6 +197,52 @@
         "vdp": false
       }
     },
+    "bitoasis-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "All other third parties",
+          "Websites under Bitoasis that utilize CMS frameworks (e.g., WordPress, Joomla, Sitecore).",
+          "https://blog.bitoasis.net"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.bitoasis&hl=en",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/ae/app/bitoasis-buy-bitcoin-crypto/id1521661794",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.bitoasis.net",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 3
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 5,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 3,
+        "secured": false,
+        "slug": "bitoasis-bug-bounty-program",
+        "status": "V",
+        "title": "BitOasis - Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "bookbeat": {
       "detail": {
         "out_of_scope": [
@@ -336,6 +382,60 @@
         "slug": "bug-bounty-program-blablacar",
         "status": "V",
         "title": "Bug Bounty Program - BlaBlaCar",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "coindcx-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "CMS websites own by Coindcx (Anything related to Wordpress etc)",
+          "Zendesk and other third parties",
+          "careers.coindcx.com",
+          "coindcx.com/blog",
+          "info.coindcx.com",
+          "otcdesk.coindcx.com"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "api.coindcx.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "*.coindcx.com",
+            "type": "wildcard"
+          }
+        ],
+        "scopes_count": 4
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 50,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 4,
+        "secured": false,
+        "slug": "coindcx-bug-bounty-program",
+        "status": "V",
+        "title": "Coindcx - Bug Bounty Program",
         "type": "bug-bounty",
         "vdp": false
       }
@@ -3140,6 +3240,47 @@
         "slug": "moneybox-bug-bounty",
         "status": "V",
         "title": "Moneybox Bug Bounty",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
+    "okto-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'",
+          "All other third parties",
+          "CMS websites own by Okto (Anything related to Wordpress etc)",
+          "Customer support form (https://help-okto.sprinklr.com/help/)"
+        ],
+        "scopes": [
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://play.google.com/store/apps/details?id=com.coindcx.okto",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "CRITICAL",
+            "scope": "https://apps.apple.com/in/app/okto-wallet/id6450688229",
+            "type": "mobile-application-ios"
+          }
+        ],
+        "scopes_count": 2
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 2000,
+        "bounty_reward_min": 0,
+        "country": "IN",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 2,
+        "secured": false,
+        "slug": "okto-bug-bounty-program",
+        "status": "V",
+        "title": "Okto - Bug Bounty Program",
         "type": "bug-bounty",
         "vdp": false
       }
