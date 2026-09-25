@@ -3778,41 +3778,6 @@
         "vdp": false
       }
     },
-    "powerdns": {
-      "detail": {
-        "out_of_scope": [
-          "\"Scopes\" in this program refer to the binary packages and source-code provided there, the systems providing those artefacts are out of scope",
-          "All content which is not listed as \"Scopes\", especially any production system operated by customers",
-          "Everything that is not directly related to the application or source-code in scope (e.g. GitHub, domain settings)"
-        ],
-        "scopes": [
-          {
-            "asset_value": "HIGH",
-            "scope": "PowerDNS authoritative server, recursor and DNSdist (see \"Software packages\" and \"Source-code\")",
-            "type": "open-source"
-          }
-        ],
-        "scopes_count": 1
-      },
-      "list": {
-        "activity_area": "Tech - Other",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 8000,
-        "bounty_reward_min": 100,
-        "country": "DE",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 1,
-        "secured": false,
-        "slug": "powerdns",
-        "status": "V",
-        "title": "PowerDNS",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "private-internet-access-bug-bounty-program": {
       "detail": {
         "out_of_scope": [

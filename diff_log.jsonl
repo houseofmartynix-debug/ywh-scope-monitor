@@ -178,3 +178,4 @@
 {"event": {"bounty_reward_max": 2000, "bounty_reward_min": 50, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "coindcx-bug-bounty-program", "title": "Coindcx - Bug Bounty Program", "ts": 1790103817}
 {"event": {"bounty_reward_max": 2000, "bounty_reward_min": 0, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "okto-bug-bounty-program", "title": "Okto - Bug Bounty Program", "ts": 1790103818}
 {"event": {"bounty_reward_max": 2000, "bounty_reward_min": 5, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "bitoasis-bug-bounty-program", "title": "BitOasis - Bug Bounty Program", "ts": 1790103819}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "powerdns", "title": "PowerDNS", "ts": 1790375460}
