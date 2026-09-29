@@ -182,3 +182,4 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "okto-bug-bounty-program", "title": "Okto - Bug Bounty Program", "ts": 1790666955}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "bitoasis-bug-bounty-program", "title": "BitOasis - Bug Bounty Program", "ts": 1790666956}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "coindcx-bug-bounty-program", "title": "Coindcx - Bug Bounty Program", "ts": 1790666957}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "contentsquare-bug-bounty-program", "title": "Contentsquare Bug Bounty Program", "ts": 1790691421}
