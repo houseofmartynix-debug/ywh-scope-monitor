@@ -1,5 +1,5 @@
 {
-  "last_heartbeat_ts": 1790691421,
+  "last_heartbeat_ts": 1790781034,
   "programs": {
     "alasco-gmbh-bug-bounty-program": {
       "detail": {
@@ -1946,7 +1946,7 @@
         "archived": false,
         "bounty": true,
         "bounty_reward_max": 4000,
-        "bounty_reward_min": 100,
+        "bounty_reward_min": 50,
         "country": "US",
         "demo": false,
         "disabled": false,

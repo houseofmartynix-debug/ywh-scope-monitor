@@ -183,3 +183,4 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "bitoasis-bug-bounty-program", "title": "BitOasis - Bug Bounty Program", "ts": 1790666956}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "coindcx-bug-bounty-program", "title": "Coindcx - Bug Bounty Program", "ts": 1790666957}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "contentsquare-bug-bounty-program", "title": "Contentsquare Bug Bounty Program", "ts": 1790691421}
+{"event": {"field": "bounty_reward_min", "kind": "field_change", "new": 50, "old": 100}, "sent": true, "slug": "harman-international-web-applications", "title": "HARMAN International - Web Applications", "ts": 1790781034}
