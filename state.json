@@ -4017,7 +4017,7 @@
         "activity_area": "Transportation",
         "archived": false,
         "bounty": true,
-        "bounty_reward_max": 10000,
+        "bounty_reward_max": 5000,
         "bounty_reward_min": 50,
         "country": "CH",
         "demo": false,
