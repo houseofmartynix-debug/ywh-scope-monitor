@@ -4887,36 +4887,41 @@
         "scopes": [
           {
             "asset_value": "CRITICAL",
+            "scope": "ywh.verify.zecible.fr",
+            "type": "api"
+          },
+          {
+            "asset_value": "MEDIUM",
             "scope": "cam.notebleue.pro",
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
-            "scope": "odoo14.notebleue.pro",
+            "asset_value": "MEDIUM",
+            "scope": "git.notebleue.pro",
             "type": "web-application"
           },
           {
             "asset_value": "CRITICAL",
+            "scope": "odoo.zecible.pro",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
             "scope": "registre.notebleue.pro",
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
-            "scope": "serveur12.notebleue.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
+            "asset_value": "MEDIUM",
             "scope": "svn.notebleue.pro",
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
+            "asset_value": "MEDIUM",
             "scope": "todo.notebleue.pro",
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
+            "asset_value": "MEDIUM",
             "scope": "webtoolbox.notebleue.pro",
             "type": "web-application"
           },
@@ -4936,12 +4941,12 @@
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
+            "asset_value": "MEDIUM",
             "scope": "ywh.crons.zecible.fr",
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
+            "asset_value": "MEDIUM",
             "scope": "ywh.dev.zecible.fr",
             "type": "web-application"
           },
@@ -4961,7 +4966,12 @@
             "type": "web-application"
           },
           {
-            "asset_value": "CRITICAL",
+            "asset_value": "LOW",
+            "scope": "ywh.static.zcb.fr",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "LOW",
             "scope": "ywh.static.zecible.fr",
             "type": "web-application"
           },
@@ -4969,21 +4979,26 @@
             "asset_value": "CRITICAL",
             "scope": "ywh.update.zecible.fr",
             "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "ywh.zcb.fr",
+            "type": "web-application"
           }
         ],
-        "scopes_count": 17
+        "scopes_count": 20
       },
       "list": {
         "activity_area": "Marketing Tech",
         "archived": false,
         "bounty": true,
         "bounty_reward_max": 2000,
-        "bounty_reward_min": 100,
+        "bounty_reward_min": 50,
         "country": "FR",
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 17,
+        "scopes_count": 20,
         "secured": false,
         "slug": "zecible-public-bug-bounty-program",
         "status": "V",
