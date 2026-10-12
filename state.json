@@ -2028,6 +2028,7 @@
           "Jelastic subdomains : *.jcloud.ik-server.com, *.jpc.infomaniak.com, *.jpe.infomaniak.com",
           "Moving or copying calendar events / contacts between containers by read-write collaborators (intended behavior)",
           "MySQL credentials from our customers, like *.myd.infomaniak.com",
+          "Partner program: pages about finding partner and sending offer, and reports about data already public on the partner directory are not eligible. Missing authorization on partner-program routes exposing private data remains in scope.",
           "S3 credentials from our customers, like s3.pub*.infomaniak.cloud",
           "This domain https://drive.infomaniak.com/app/office/:folder:/:file: is out of scope. This is only office application, an external app to open MS office documents.",
           "User email verification",
@@ -2036,7 +2037,6 @@
           "Websocket IPS-public credentials (MQTT, info-mq, IPS_RABBIT, ips-public). Public identifiers that do not allow access to information outside the scope of the user's profile.",
           "acronis.infomaniak.com",
           "ov-XX.infomaniak.ch and od-XX.infomaniak.ch sub domains",
-          "partner program : pages about finding partner and sending offer / All routes ending with /partners/tender",
           "storage*.infomaniak.com/newsletter/thumbnails/*"
         ],
         "scopes": [
@@ -2049,6 +2049,11 @@
             "asset_value": "HIGH",
             "scope": "https://github.com/Infomaniak/desktop-kDrive",
             "type": "application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "manager.infomaniak.com/*proxy*",
+            "type": "mobile-application"
           },
           {
             "asset_value": "HIGH",
@@ -2296,7 +2301,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 51
+        "scopes_count": 52
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -2308,7 +2313,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 51,
+        "scopes_count": 52,
         "secured": false,
         "slug": "infomaniak-bug-bounty-program",
         "status": "V",
