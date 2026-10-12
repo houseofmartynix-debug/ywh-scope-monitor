@@ -3475,6 +3475,11 @@
             "type": "web-application"
           },
           {
+            "asset_value": "MEDIUM",
+            "scope": "https://developers.woohoo.in/",
+            "type": "web-application"
+          },
+          {
             "asset_value": "LOW",
             "scope": "https://emistores.pinelabs.com",
             "type": "web-application"
@@ -3531,11 +3536,16 @@
           },
           {
             "asset_value": "MEDIUM",
+            "scope": "https://www.woohoo.in/",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
             "scope": "trm.pinepaymentsolutions.com",
             "type": "web-application"
           }
         ],
-        "scopes_count": 22
+        "scopes_count": 24
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -3547,7 +3557,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 22,
+        "scopes_count": 24,
         "secured": false,
         "slug": "pine-labs-bug-bounty-program",
         "status": "V",
