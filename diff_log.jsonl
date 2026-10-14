@@ -208,3 +208,4 @@
 {"event": {"kind": "oos_removed", "rule": "partner program : pages about finding partner and sending offer / All routes ending with /partners/tender"}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1791827340}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "https://developers.woohoo.in/", "type": "web-application"}}, "sent": true, "slug": "pine-labs-bug-bounty-program", "title": "Pine Labs Bug Bounty Program", "ts": 1791891536}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "https://www.woohoo.in/", "type": "web-application"}}, "sent": true, "slug": "pine-labs-bug-bounty-program", "title": "Pine Labs Bug Bounty Program", "ts": 1791891537}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "komoju-public-bug-bounty-program", "title": "KOMOJU - Public Bug Bounty Program", "ts": 1791961735}

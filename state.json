@@ -2410,45 +2410,6 @@
         "vdp": false
       }
     },
-    "komoju-public-bug-bounty-program": {
-      "detail": {
-        "out_of_scope": [
-          "Account squatting, or registering accounts to prevent others from signing up, is out of scope.",
-          "All domains or subdomains not listed in the above list of 'Scopes'"
-        ],
-        "scopes": [
-          {
-            "asset_value": "HIGH",
-            "scope": "https://doc.komoju.com/docs/fields-overview",
-            "type": "other"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://yeswehack.staging.komoju.com",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 2
-      },
-      "list": {
-        "activity_area": "Finance/Assurance",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 7000,
-        "bounty_reward_min": 50,
-        "country": "JP",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 2,
-        "secured": false,
-        "slug": "komoju-public-bug-bounty-program",
-        "status": "V",
-        "title": "KOMOJU - Public Bug Bounty Program",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "louis-vuitton-malletier-public-bug-bounty-program": {
       "detail": {
         "out_of_scope": [
