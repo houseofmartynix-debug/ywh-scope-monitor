@@ -4806,44 +4806,6 @@
         "vdp": false
       }
     },
-    "xelians-blackbox-program": {
-      "detail": {
-        "out_of_scope": [
-          "All domains or subdomains not listed in the above list of 'Scopes'"
-        ],
-        "scopes": [
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://preprod-datahub.xelians.fr/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://preprod-xam.xelians.fr/",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 2
-      },
-      "list": {
-        "activity_area": "Other",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 1500,
-        "bounty_reward_min": 50,
-        "country": "FR",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 2,
-        "secured": false,
-        "slug": "xelians-blackbox-program",
-        "status": "V",
-        "title": "Xelians - Blackbox program",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "yes-we-hack": {
       "detail": {
         "out_of_scope": [
