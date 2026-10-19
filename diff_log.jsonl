@@ -213,3 +213,6 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1792021891}
 {"event": {"bounty_reward_max": 1500, "bounty_reward_min": 5, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "vfs-global-bug-bounty-program", "title": "VFS Global Bug Bounty Program", "ts": 1792053122}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "xelians-blackbox-program", "title": "Xelians - Blackbox program", "ts": 1792071621}
+{"event": {"bounty_reward_max": null, "bounty_reward_min": null, "kind": "program_new", "type": "vdp-in-app"}, "sent": true, "slug": "govtech-vulnerability-disclosure-programme-policy", "title": "GovTech - Vulnerability Disclosure Programme", "ts": 1792392548}
+{"event": {"field": "bounty_reward_min", "kind": "field_change", "new": 1, "old": 0}, "sent": true, "slug": "ezviz-bug-bounty-program", "title": "Ezviz - Bug Bounty Program", "ts": 1792392549}
+{"event": {"field": "bounty_reward_max", "kind": "field_change", "new": 420, "old": 5000}, "sent": true, "slug": "ezviz-bug-bounty-program", "title": "Ezviz - Bug Bounty Program", "ts": 1792392549}
