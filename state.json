@@ -2059,6 +2059,11 @@
             "type": "api"
           },
           {
+            "asset_value": "MEDIUM",
+            "scope": "https://github.com/Infomaniak/desktop-kChat",
+            "type": "application"
+          },
+          {
             "asset_value": "HIGH",
             "scope": "https://github.com/Infomaniak/desktop-kDrive",
             "type": "application"
@@ -2314,7 +2319,7 @@
             "type": "web-application"
           }
         ],
-        "scopes_count": 52
+        "scopes_count": 53
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -2326,7 +2331,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 52,
+        "scopes_count": 53,
         "secured": false,
         "slug": "infomaniak-bug-bounty-program",
         "status": "V",
