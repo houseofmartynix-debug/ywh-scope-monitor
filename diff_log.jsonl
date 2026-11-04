@@ -334,3 +334,5 @@
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "*.infomaniak.com", "type": "web-application"}}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1793722075}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "api.pub1.infomaniak.cloud", "type": "web-application"}}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1793722076}
 {"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "api.pub2.infomaniak.cloud", "type": "web-application"}}, "sent": true, "slug": "infomaniak-bug-bounty-program", "title": "Infomaniak Bug Bounty program", "ts": 1793722078}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "goto-financial-public-bounty-program", "title": "GoTo Financial - Public Bounty Program", "ts": 1793779615}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "gojek-bug-bounty-program", "title": "GOJEK - Public Bounty Program", "ts": 1793779616}
