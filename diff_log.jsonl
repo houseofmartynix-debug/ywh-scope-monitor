@@ -337,3 +337,4 @@
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "goto-financial-public-bounty-program", "title": "GoTo Financial - Public Bounty Program", "ts": 1793779615}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "gojek-bug-bounty-program", "title": "GOJEK - Public Bounty Program", "ts": 1793779616}
 {"event": {"field": "bounty_reward_max", "kind": "field_change", "new": 2000, "old": 2500}, "sent": true, "slug": "harman-international-web-applications", "title": "HARMAN International - Web Applications", "ts": 1793986697}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "superbank-public-bug-bounty-program", "title": "Superbank - Public Bug Bounty Program", "ts": 1794541132}
