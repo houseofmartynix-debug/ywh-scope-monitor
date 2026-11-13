@@ -2013,6 +2013,16 @@
             "type": "application"
           },
           {
+            "asset_value": "MEDIUM",
+            "scope": "https://github.com/Infomaniak/desktop-kMeet",
+            "type": "application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://github.com/Infomaniak/android-infomaniak-meet",
+            "type": "mobile-application-android"
+          },
+          {
             "asset_value": "HIGH",
             "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.auth",
             "type": "mobile-application-android"
@@ -2075,6 +2085,11 @@
           {
             "asset_value": "MEDIUM",
             "scope": "https://apps.apple.com/fr/app/infomaniak-swisstransfer/id6737686335",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "https://github.com/Infomaniak/ios-infomaniak-meet",
             "type": "mobile-application-ios"
           },
           {
@@ -2253,7 +2268,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 55
+        "scopes_count": 58
       },
       "list": {
         "activity_area": "Tech - Other",
@@ -2265,7 +2280,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 55,
+        "scopes_count": 58,
         "secured": false,
         "slug": "infomaniak-bug-bounty-program",
         "status": "V",
