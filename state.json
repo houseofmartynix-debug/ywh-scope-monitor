@@ -1,5 +1,5 @@
 {
-  "last_heartbeat_ts": 1794734285,
+  "last_heartbeat_ts": 1794851944,
   "programs": {
     "alasco-gmbh-bug-bounty-program": {
       "detail": {
@@ -185,6 +185,64 @@
         "vdp": false
       }
     },
+    "boursobank-bug-bounty-program": {
+      "detail": {
+        "out_of_scope": [
+          "All domains or subdomains not listed in the above list of 'Scopes'"
+        ],
+        "scopes": [
+          {
+            "asset_value": "HIGH",
+            "scope": "api.boursobank.com",
+            "type": "api"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://play.google.com/store/apps/details?id=com.boursorama.android.clients",
+            "type": "mobile-application-android"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "https://apps.apple.com/fr/app/boursobank/id425368900",
+            "type": "mobile-application-ios"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "clients.boursobank.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "HIGH",
+            "scope": "tradingboard.boursobank.com",
+            "type": "web-application"
+          },
+          {
+            "asset_value": "MEDIUM",
+            "scope": "www.boursobank.com",
+            "type": "web-application"
+          }
+        ],
+        "scopes_count": 6
+      },
+      "list": {
+        "activity_area": "Finance/Assurance",
+        "archived": false,
+        "bounty": true,
+        "bounty_reward_max": 3000,
+        "bounty_reward_min": 50,
+        "country": "FR",
+        "demo": false,
+        "disabled": false,
+        "public": true,
+        "scopes_count": 6,
+        "secured": false,
+        "slug": "boursobank-bug-bounty-program",
+        "status": "V",
+        "title": "BoursoBank Bug Bounty Program",
+        "type": "bug-bounty",
+        "vdp": false
+      }
+    },
     "bug-bounty-program-blablacar": {
       "detail": {
         "out_of_scope": [
@@ -241,49 +299,6 @@
         "slug": "bug-bounty-program-blablacar",
         "status": "V",
         "title": "Bug Bounty Program - BlaBlaCar",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
-    "cryptobox-bug-bounty": {
-      "detail": {
-        "out_of_scope": [
-          "Testing any other system than https://bounty.cryptobox.com, in particular *.cryptobox.com or *.ercom.fr."
-        ],
-        "scopes": [
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://play.google.com/store/apps/details?id=com.ercom.cryptobox.release&hl=fr",
-            "type": "mobile-application-android"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://apps.apple.com/fr/app/cryptobox/id972602802",
-            "type": "mobile-application-ios"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "https://bounty.cryptobox.com",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 3
-      },
-      "list": {
-        "activity_area": "CyberSec",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 5000,
-        "bounty_reward_min": 100,
-        "country": "FR",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 3,
-        "secured": false,
-        "slug": "cryptobox-bug-bounty",
-        "status": "V",
-        "title": "Cryptobox",
         "type": "bug-bounty",
         "vdp": false
       }
@@ -1882,7 +1897,7 @@
         "activity_area": "Manufacturing",
         "archived": false,
         "bounty": true,
-        "bounty_reward_max": 2000,
+        "bounty_reward_max": 2500,
         "bounty_reward_min": 50,
         "country": "US",
         "demo": false,
