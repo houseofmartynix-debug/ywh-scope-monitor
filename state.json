@@ -4104,14 +4104,21 @@
           "*.cust.ownit.se",
           "*.cust.telenor.se",
           "*.customers.ownit.se",
-          "*.ownit.nu",
+          "*.ownit.nu / Ownit Webmail",
+          "*.play.ownit.se",
           "*.sme.telenor.se",
+          "*.stream.telenor.se",
+          "*.tv.telenor.se",
           "Any domain that looks like it's owned by a third party or customer due to customer's privacy",
           "Mobile services and devices provided by Telenor Sweden and subsidiaries not reachable from Internet",
           "Other business units of the Telenor Group - including *.telenor.com",
+          "admin-stage.tv.telenor.se",
+          "butik.vimla.se",
           "faq.vimla.se",
           "stage-vimla-se.vimla.io",
-          "tc.ownit.se"
+          "status.vimla.se",
+          "tc.ownit.se",
+          "vdp.telenor.se"
         ],
         "scopes": [
           {
@@ -4155,11 +4162,6 @@
             "type": "web-application"
           },
           {
-            "asset_value": "MEDIUM",
-            "scope": "*.play.ownit.se",
-            "type": "web-application"
-          },
-          {
             "asset_value": "HIGH",
             "scope": "*.profile.telenor.se",
             "type": "web-application"
@@ -4167,11 +4169,6 @@
           {
             "asset_value": "HIGH",
             "scope": "*.signin.telenor.se",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "MEDIUM",
-            "scope": "*.stream.telenor.se",
             "type": "web-application"
           },
           {
@@ -4235,7 +4232,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 24
+        "scopes_count": 22
       },
       "list": {
         "activity_area": "Media & Entertainment",
@@ -4247,7 +4244,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 24,
+        "scopes_count": 22,
         "secured": false,
         "slug": "telenor-sweden-public-bug-bounty-program",
         "status": "V",

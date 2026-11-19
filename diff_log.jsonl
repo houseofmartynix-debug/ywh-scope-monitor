@@ -344,3 +344,14 @@
 {"event": {"field": "bounty_reward_max", "kind": "field_change", "new": 2500, "old": 2000}, "sent": true, "slug": "harman-international-web-applications", "title": "HARMAN International - Web Applications", "ts": 1794851942}
 {"event": {"bounty_reward_max": 3000, "bounty_reward_min": 50, "kind": "program_new", "type": "bug-bounty"}, "sent": true, "slug": "boursobank-bug-bounty-program", "title": "BoursoBank Bug Bounty Program", "ts": 1794851943}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "cryptobox-bug-bounty", "title": "Cryptobox", "ts": 1794851944}
+{"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "*.play.ownit.se", "type": "web-application"}}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096071}
+{"event": {"kind": "scope_removed", "scope": {"asset_value": "MEDIUM", "scope": "*.stream.telenor.se", "type": "web-application"}}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096072}
+{"event": {"kind": "oos_added", "rule": "*.ownit.nu / Ownit Webmail"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096073}
+{"event": {"kind": "oos_added", "rule": "*.play.ownit.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096074}
+{"event": {"kind": "oos_added", "rule": "*.stream.telenor.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096075}
+{"event": {"kind": "oos_added", "rule": "*.tv.telenor.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096076}
+{"event": {"kind": "oos_added", "rule": "admin-stage.tv.telenor.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096077}
+{"event": {"kind": "oos_added", "rule": "butik.vimla.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096078}
+{"event": {"kind": "oos_added", "rule": "status.vimla.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096079}
+{"event": {"kind": "oos_added", "rule": "vdp.telenor.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096080}
+{"event": {"kind": "oos_removed", "rule": "*.ownit.nu"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096081}
