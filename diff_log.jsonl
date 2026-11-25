@@ -355,3 +355,4 @@
 {"event": {"kind": "oos_added", "rule": "status.vimla.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096079}
 {"event": {"kind": "oos_added", "rule": "vdp.telenor.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096080}
 {"event": {"kind": "oos_removed", "rule": "*.ownit.nu"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795096081}
+{"event": {"field": "bounty_reward_max", "kind": "field_change", "new": 2000, "old": 3000}, "sent": true, "slug": "programmes-de-primes-aux-bogues-du-gouvernement-du-quebec-cgcd", "title": "Programme de prime aux bogues du Gouvernement du Qu\u00e9bec", "ts": 1795573674}

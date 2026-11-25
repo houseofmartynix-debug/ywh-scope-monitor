@@ -3663,7 +3663,7 @@
         "activity_area": "Government",
         "archived": false,
         "bounty": true,
-        "bounty_reward_max": 3000,
+        "bounty_reward_max": 2000,
         "bounty_reward_min": 50,
         "country": "CA",
         "demo": false,
