@@ -1117,199 +1117,6 @@
         "vdp": false
       }
     },
-    "fdj-united-online-betting-gaming-bug-bounty-program": {
-      "detail": {
-        "out_of_scope": [
-          "All domains or subdomains not listed in the above list of 'Scopes' should be considered to be out of scope"
-        ],
-        "scopes": [
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://cdn.unicdn.net/apk/UnibetCasino.apk",
-            "type": "mobile-application-android"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://itunes.apple.com/gb/app/unibet-casino-slots-games/id905382680",
-            "type": "mobile-application-ios"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://itunes.apple.com/gb/app/unibet-live-sports-betting/id463335337",
-            "type": "mobile-application-ios"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "(se|fi|uk).bingo.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "/blog/ (or translated equivalent) endpoints on our sites",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "en.casinohuone.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "en.kolikkopelit.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "en.ottokasino.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "fi.mariacasino.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "fi.unibet.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://pci.kindredgroup.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "https://www.32red.com/",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "int.32red.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.bingo.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.casinohuone.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.kolikkopelit.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.mariacasino.(com|se|ee|dk)",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.ottocasino.se",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.ottokasino.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.storspelare.se",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.storspiller.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "payment.vladcazino.ro",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.bingo.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.casinohuone.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.kolikkopelit.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.mariacasino.(com|se|ee|dk)",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.ottocasino.se",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.ottokasino.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.storspelare.se",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.storspiller.com",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.unibet.(com\u00ad|it|se|co.uk|be|nl|dk|ro|ee|ie|com.au|mt)",
-            "type": "web-application"
-          },
-          {
-            "asset_value": "CRITICAL",
-            "scope": "www.vladcazino.ro",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 33
-      },
-      "list": {
-        "activity_area": "Media & Entertainment",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 15000,
-        "bounty_reward_min": 50,
-        "country": "SE",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 33,
-        "secured": false,
-        "slug": "fdj-united-online-betting-gaming-bug-bounty-program",
-        "status": "V",
-        "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "govtech-vulnerability-disclosure-programme-policy": {
       "detail": {
         "out_of_scope": [
@@ -4114,26 +3921,21 @@
           "Other business units of the Telenor Group - including *.telenor.com",
           "admin-stage.tv.telenor.se",
           "butik.vimla.se",
+          "careers.telenor.se",
           "faq.vimla.se",
+          "mediearkivet.telenor.se",
+          "merchportal.telenor.se",
           "stage-vimla-se.vimla.io",
           "status.vimla.se",
           "tc.ownit.se",
-          "vdp.telenor.se"
+          "tseflowscape.telenor.se",
+          "vdp.telenor.se",
+          "villafiber.telenor.se"
         ],
         "scopes": [
           {
             "asset_value": "HIGH",
-            "scope": "*.api-app.telenor.se",
-            "type": "api"
-          },
-          {
-            "asset_value": "HIGH",
             "scope": "*.api.vimla.se",
-            "type": "api"
-          },
-          {
-            "asset_value": "HIGH",
-            "scope": "*.apis.telenor.se",
             "type": "api"
           },
           {
@@ -4232,7 +4034,7 @@
             "type": "wildcard"
           }
         ],
-        "scopes_count": 22
+        "scopes_count": 20
       },
       "list": {
         "activity_area": "Media & Entertainment",
@@ -4244,7 +4046,7 @@
         "demo": false,
         "disabled": false,
         "public": true,
-        "scopes_count": 22,
+        "scopes_count": 20,
         "secured": false,
         "slug": "telenor-sweden-public-bug-bounty-program",
         "status": "V",
