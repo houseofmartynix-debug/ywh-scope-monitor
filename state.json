@@ -1,61 +1,6 @@
 {
-  "last_heartbeat_ts": 1795729478,
+  "last_heartbeat_ts": 1795817096,
   "programs": {
-    "alasco-gmbh-bug-bounty-program": {
-      "detail": {
-        "out_of_scope": [
-          "Alasco will not provide access credentials to any system, not for testing and also not for issue validation.",
-          "All other domains or subdomains not listed in the above list of 'Scopes'.",
-          "However, any vulnerability discovered in a system or service that requires a login to access is outside the scope of this program.",
-          "Please note that all non-authenticated areas of our systems are in scope for this program. This means that any vulnerability discovered in a system or service that does not require a login to access is eligible for a reward.",
-          "alasco.de",
-          "explore.alasco.com",
-          "explore.alasco.de",
-          "www.alasco.de"
-        ],
-        "scopes": [
-          {
-            "asset_value": "LOW",
-            "scope": "api.alasco.de",
-            "type": "api"
-          },
-          {
-            "asset_value": "LOW",
-            "scope": "*.alasco.de",
-            "type": "other"
-          },
-          {
-            "asset_value": "LOW",
-            "scope": "*.alasco.rocks",
-            "type": "other"
-          },
-          {
-            "asset_value": "LOW",
-            "scope": "app.alasco.de",
-            "type": "web-application"
-          }
-        ],
-        "scopes_count": 4
-      },
-      "list": {
-        "activity_area": "Tech - Other",
-        "archived": false,
-        "bounty": true,
-        "bounty_reward_max": 1000,
-        "bounty_reward_min": 50,
-        "country": "DE",
-        "demo": false,
-        "disabled": false,
-        "public": true,
-        "scopes_count": 4,
-        "secured": false,
-        "slug": "alasco-gmbh-bug-bounty-program",
-        "status": "V",
-        "title": "Alasco GmbH - Bug Bounty Program",
-        "type": "bug-bounty",
-        "vdp": false
-      }
-    },
     "atg-public-bug-bounty-program": {
       "detail": {
         "out_of_scope": [

@@ -364,3 +364,4 @@
 {"event": {"kind": "oos_added", "rule": "tseflowscape.telenor.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795695595}
 {"event": {"kind": "oos_added", "rule": "villafiber.telenor.se"}, "sent": true, "slug": "telenor-sweden-public-bug-bounty-program", "title": "Telenor Sweden Public Bug Bounty Program", "ts": 1795695596}
 {"event": {"kind": "program_removed"}, "sent": true, "slug": "fdj-united-online-betting-gaming-bug-bounty-program", "title": "FDJ United (Online Betting and Gaming) - Bug Bounty program", "ts": 1795695597}
+{"event": {"kind": "program_removed"}, "sent": true, "slug": "alasco-gmbh-bug-bounty-program", "title": "Alasco GmbH - Bug Bounty Program", "ts": 1795817096}
